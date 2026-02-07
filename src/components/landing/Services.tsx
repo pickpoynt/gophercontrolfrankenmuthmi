@@ -1,53 +1,53 @@
-import { Search, Droplets, Shield, Hammer, AlertTriangle, Waves, Activity, Zap, Microscope } from "lucide-react";
+import { Search, Droplets, Shield, Hammer, AlertTriangle, Waves, Activity, Zap, Ruler } from "lucide-react";
 
 const services = [
   {
-    icon: Microscope,
-    title: "Sonar Leak Detection",
-    description: "Using world-class acoustic technology to pinpoint the exact location of water leaks under your Dallas foundation with pinpoint accuracy.",
-    link: "#dallas-leak-info"
+    icon: Ruler,
+    title: "CIPP Pipe Lining",
+    description: "Cured-In-Place Pipe (CIPP) technology creates a brand new, structural pipe inside your existing one using epoxy resin, effectively fixing cracks and root intrusion.",
+    link: "#trenchless-info"
   },
   {
     icon: Hammer,
-    title: "Direct Access Repair",
-    description: "Precision repair of compromised pipes beneath your slab. We utilize minimally invasive techniques to protect your home's flooring and structure.",
-    link: "#dallas-leak-info"
+    title: "Pipe Bursting",
+    description: "A specialized tool pulls a new High-Density Polyethylene (HDPE) pipe through your old line, breaking the old pipe and replacing it in one continuous motion.",
+    link: "#trenchless-info"
   },
   {
-    icon: Activity,
-    title: "Thermal Mapping",
-    description: "Infrared thermal imaging to detect hot water slab leaks behind walls and under floors without removing a single brick or tile.",
-    link: "#dallas-leak-info"
+    icon: Search,
+    title: "HD Video Inspection",
+    description: "We use robotic sewer cameras to find exactly where your sewer line is failing, providing you with a high-definition recording and clear diagnostic report.",
+    link: "#trenchless-info"
   },
   {
     icon: Zap,
-    title: "Emergency Response",
-    description: "Available 24/7 across the DFW Metroplex for major slab leak floods. We act fast to mitigate foundation damage and structural shifting.",
-    link: "#dallas-leak-info"
-  },
-  {
-    icon: Shield,
-    title: "Pipe Re-Routing",
-    description: "Strategically bypassing active under-slab leaks with new, above-floor plumbing lines, providing a permanent solution to persistent issues.",
-    link: "#dallas-leak-info"
-  },
-  {
-    icon: Waves,
-    title: "Sewer Leak Testing",
-    description: "Specialized hydrostatic testing to identify sanitary sewer leaks under your slab which can be catastrophic to your Dallas foundation.",
-    link: "#dallas-leak-info"
-  },
-  {
-    icon: AlertTriangle,
-    title: "Foundation Risk Check",
-    description: "Comprehensive diagnostics to see if your foundation's movement is being caused by an active water leak beneath the slab.",
-    link: "#dallas-leak-info"
+    title: "Emergency Sewer Ops",
+    description: "Available for rapid sewer backups in Phoenix. We can often clear the line and perform a trenchless repair faster than traditional excavation teams.",
+    link: "#trenchless-info"
   },
   {
     icon: Droplets,
-    title: "Copper To PEX Swaps",
-    description: "Replacing old, corroded copper lines under your foundation with high-durability PEX, eliminating future slab leak risks permanently.",
-    link: "#dallas-leak-info"
+    title: "Hydro Jetting Scouring",
+    description: "Using high-pressure water to blast through tree roots, grease, and scale, preparing your old host pipe for a smooth trenchless liner application.",
+    link: "#trenchless-info"
+  },
+  {
+    icon: Shield,
+    title: "Commercial Trenchless",
+    description: "Zero-downtime sewer repairs for Phoenix businesses. We fix lines under parking lots and sidewalks without closing your doors to customers.",
+    link: "#trenchless-info"
+  },
+  {
+    icon: Waves,
+    title: "Permaliner Solutions",
+    description: "Certified installers of industry-leading Permaliner systems, offering the highest strength-to-thickness ratio for modern trenchless pipe lining.",
+    link: "#trenchless-info"
+  },
+  {
+    icon: AlertTriangle,
+    title: "Root Barrier Install",
+    description: "Preventing future root damage in Phoenix's landscape by installing physical and chemical barriers after your sewer line has been restored.",
+    link: "#trenchless-info"
   }
 ];
 
@@ -57,10 +57,10 @@ const Services = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-heading font-bold text-slate-900 mb-4">
-            Specialized Slab Leak Detection in Dallas
+            Advanced Trenchless Services in Phoenix
           </h2>
           <p className="text-lg text-slate-600 max-w-2xl mx-auto">
-            North Texas foundations face unique challenges. We provide the most advanced diagnostic and repair services tailored for Dallas soil conditions.
+            We provide the most innovative, non-invasive sewer solutions to protect your property and restore your drainage systems permanently.
           </p>
         </div>
 

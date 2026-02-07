@@ -7,28 +7,28 @@ import {
 
 const faqs = [
   {
-    question: "What exactly is a slab leak in a Dallas home?",
-    answer: "A slab leak occurs when a water or sewer pipe beneath your concrete foundation fails. In Dallas, this is often caused by the heavy clay soil shifting the house, which can snap or corrode older copper and cast-iron lines."
+    question: "Is trenchless sewer repair really as strong as a new PVC pipe?",
+    answer: "Yes, even stronger! The cured-in-place pipe (CIPP) liners we use in Phoenix are structural, semi-rigid, and rated for a 50+ year life span. They are resistant to chemical corrosion and significantly more resistant to root intrusion than traditional clay or PVC joints."
   },
   {
-    question: "How do you detect a slab leak without breaking my Dallas foundation?",
-    answer: "We use non-destructive electronic sonar and acoustic technology to 'hear' the leak. We also use thermal imaging to identify heat signatures from hot water leaks and gas-based tracer tests to find exact break points under the concrete."
+    question: "How long does a typical trenchless repair take in Phoenix?",
+    answer: "Most residential lining projects are completed in a single day. We arrive in the morning, clean the host pipe, install the liner, and have your sewer service back up and running by the evening. Traditional digging can take 3-7 days."
   },
   {
-    question: "Will my Dallas homeowner's insurance cover slab leak repair?",
-    answer: "Usually, Dallas insurance policies cover the 'access' and 'reconstruction' (getting to the pipe and fixing the floor), but may not cover the actual pipe repair itself. We provide detailed documentation to help you maximize your claim."
+    question: "Can any sewer line be fixed with trenchless technology?",
+    answer: "While most pipes are candidates, if a sewer line has completely pancaked (collapsed) or has severe 'bellies' (low spots), pipe bursting or traditional excavation may be required. We perform a free video inspection to determine the best method for your specific Phoenix property."
   },
   {
-    question: "How long does it take to detect a slab leak in Dallas?",
-    answer: "A professional detection typically takes 1.5 to 3 hours. We provide a full report on-site and can often begin repairs the same day to prevent further foundation damage."
+    question: "What is the cost difference between digging and trenchless in Phoenix?",
+    answer: "Trenchless repair itself may have a higher per-foot material cost, but you save thousands by not having to replace your landscape, patio, driveway, or pool deck. This makes trenchless the more affordable overall solution for most Phoenix homeowners."
   },
   {
-    question: "Is it better to repair the slab leak or re-route the pipe?",
-    answer: "In Dallas homes with multiple leaks or older copper plumbing, re-routing (running new lines through walls/attics) is often the superior choice. It eliminates the risk of future leaks in that line permanently. We evaluate both options for every customer."
+    question: "Do you offer a warranty on the new sewer liner?",
+    answer: "Absolutely. We offer a lifetime material warranty and a 10-year labor warranty on all our trenchless installations. We stand by the quality of our Arizona craftsmanship."
   },
   {
-    question: "What are the first signs of a slab leak to watch for in Dallas?",
-    answer: "Watch for hot spots on the floor, a running water sound when nothing is on, cracks appearing in your drywall or tiles, or a significant jump in your Dallas utility bill."
+    question: "How do you 'get into' the pipe without digging a trench?",
+    answer: "We typically use an existing sewer cleanout or create a single small access point at the pipe's entry into the house. From there, we 'blow' or pull the liner through the entire length of the broken pipe."
   }
 ];
 
@@ -38,10 +38,10 @@ const FAQ = () => {
       <div className="container mx-auto px-4 max-w-4xl">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-heading font-bold text-slate-900 mb-4">
-            Dallas Slab Leak FAQ
+            Phoenix Trenchless FAQ
           </h2>
           <p className="text-lg text-slate-600">
-            Expert answers to the most common questions about foundation leaks in North Texas.
+            Expert answers to common questions about no-dig sewer repair in Arizona.
           </p>
         </div>
 

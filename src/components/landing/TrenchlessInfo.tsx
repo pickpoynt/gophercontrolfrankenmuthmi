@@ -1,57 +1,57 @@
-import { ShieldCheck, Waves, Activity, AlertTriangle, MapPin, Search } from "lucide-react";
+import { ShieldCheck, FileCheck, Hammer, Microscope, MapPin, Gauge } from "lucide-react";
 
-const DallasLeakInfo = () => {
-    const signs = [
+const TrenchlessInfo = () => {
+    const techOptions = [
         {
-            icon: Waves,
-            title: "Warm Spots on Floors",
-            description: "If a hot water line under your Dallas slab is leaking, you'll often feel distinct warm areas on your tile or laminate flooring."
+            icon: Microscope,
+            title: "CIPP Sewer Lining",
+            description: "A flexible liner saturated with epoxy resin is inserted into your old sewer pipe. Once cured, it creates a new 'pipe-within-a-pipe' that is stronger than brand new PVC."
         },
         {
-            icon: Activity,
-            title: "The 'Hissing' Sound",
-            description: "A constant sound of water running when all faucets are off is a primary indicator of an active under-slab pipe failure."
+            icon: Hammer,
+            title: "Pipe Bursting",
+            description: "Using a hydraulic 'bursting head,' we pull a new HDPE pipe through your old, collapsed line, shattering the old pipe and expanding the space for the new one."
         },
         {
-            icon: AlertTriangle,
-            title: "Foundation Cracks",
-            description: "Dallas's clay soil expands rapidly when wet. A slab leak can cause sudden heaving, leading to cracks in walls and floors."
+            icon: Gauge,
+            title: "Hydro-Jetting Prep",
+            description: "Our high-PSI water scouring process removes decades of scale, sludge, and tree roots, ensuring a perfect bond for the new trenchless liner."
         },
         {
-            icon: Search,
-            title: "Unexpected Water Bills",
-            description: "Even a pinhole leak can waste thousands of gallons a month. If your Dallas water bill has spiked, we need to test your slab."
+            icon: FileCheck,
+            title: "Digital Inspection",
+            description: "Every Phoenix trenchless project starts and ends with a high-definition video inspection to verify structural integrity and flow capacity."
         }
     ];
 
-    const dallasSoilFactors = [
+    const phoenixFactors = [
         {
             icon: MapPin,
-            title: "Dallas Clay Soil Impact",
-            description: "North Texas is known for 'Blackland Prairie' clay soil. This soil expands and contracts with moisture changes, putting immense physical pressure on under-slab plumbing assemblies."
+            title: "Navigating Caliche Soil",
+            description: "Phoenix's 'caliche' is a rock-hard layer of calcium carbonate. Trenchless technology bypasses the need to jackhammer through this sub-layer, saving you time and labor costs."
         },
         {
             icon: ShieldCheck,
-            title: "Cast Iron Decay",
-            description: "Many older Dallas homes (1950s-70s) have cast iron sewer pipes under the slab. These pipes corrode from the inside out, causing foundation-destabilizing leaks."
+            title: "Orangeburg Pipe Warning",
+            description: "Many 1950s-era Phoenix homes have 'Orangeburg' (bituminous fiber) pipes. These are prone to collapse. Our pipe bursting specialists can replace these completely without a trench."
         }
     ];
 
     return (
-        <section id="dallas-leak-info" className="py-24 bg-gradient-to-br from-slate-50 to-blue-50">
+        <section id="trenchless-info" className="py-24 bg-gradient-to-br from-slate-50 to-blue-50">
             <div className="container mx-auto px-4">
                 <div className="max-w-4xl mx-auto">
                     <div className="text-center mb-16">
                         <h2 className="text-3xl md:text-5xl font-heading font-bold text-slate-900 mb-6 capitalize leading-tight">
-                            Protecting Your <span className="text-blue-600">Dallas Foundation</span>
+                            The Future of <span className="text-blue-600">Sewer Repair in Phoenix</span>
                         </h2>
                         <p className="text-xl text-slate-600 leading-relaxed shadow-sm p-4 bg-white/50 rounded-xl border border-blue-100">
-                            A slab leak in Dallas isn't just a plumbing problem—it's a threat to your home's structure. Our non-invasive process pinpoints the leak early to prevent catastrophic foundation failure.
+                            Stop the digging and save your home. Our trenchless methods provide a permanent, structural fix for your Phoenix sewer lines without the destruction of traditional excavation.
                         </p>
                     </div>
 
                     <div className="grid md:grid-cols-2 gap-8 mb-16">
-                        {signs.map((item, idx) => (
+                        {techOptions.map((item, idx) => (
                             <div key={idx} className="bg-white p-8 rounded-2xl shadow-xl border border-slate-100 hover:border-blue-300 transition-all duration-300 group">
                                 <div className="w-14 h-14 bg-blue-100 rounded-xl flex items-center justify-center mb-6 group-hover:bg-blue-600 transition-colors shadow-inner">
                                     <item.icon className="w-7 h-7 text-blue-600 group-hover:text-white" />
@@ -64,9 +64,9 @@ const DallasLeakInfo = () => {
 
                     <div className="bg-slate-900 rounded-3xl p-8 md:p-12 text-white relative overflow-hidden shadow-2xl">
                         <div className="relative z-10">
-                            <h3 className="text-2xl md:text-3xl font-heading font-bold mb-8">Understanding the Dallas Niche</h3>
+                            <h3 className="text-2xl md:text-3xl font-heading font-bold mb-8">Localized Phoenix Sewer Challenges</h3>
                             <div className="grid md:grid-cols-2 gap-12">
-                                {dallasSoilFactors.map((factor, idx) => (
+                                {phoenixFactors.map((factor, idx) => (
                                     <div key={idx} className="space-y-4">
                                         <div className="flex items-center gap-3">
                                             <factor.icon className="w-6 h-6 text-blue-400" />
@@ -79,14 +79,14 @@ const DallasLeakInfo = () => {
                                 ))}
                             </div>
                         </div>
-                        {/* Abstract Texas/Dallas Map Overlay */}
+                        {/* Abstract Desert Map Pattern */}
                         <div className="absolute top-0 right-0 w-64 h-64 bg-blue-600/5 rounded-full blur-3xl" />
                     </div>
 
                     <div className="mt-16 bg-blue-600 rounded-3xl p-8 md:p-10 text-center text-white shadow-2xl">
-                        <h3 className="text-2xl md:text-3xl font-heading font-bold mb-4">Don't Wait for the Foundation to Shift</h3>
+                        <h3 className="text-2xl md:text-3xl font-heading font-bold mb-4">Facing a Massive Sewer Bill?</h3>
                         <p className="text-blue-100 text-lg mb-8 max-w-2xl mx-auto">
-                            Early detection saves up to 70% in repair costs. If you suspect a leak under your Dallas home, call our certified specialists immediately.
+                            Trenchless repair is often 30-50% cheaper over the entire project life when compared to digging up and replacing expensive Phoenix landscaping.
                         </p>
                         <a
                             href="tel:8777921410"
@@ -101,4 +101,4 @@ const DallasLeakInfo = () => {
     );
 };
 
-export default DallasLeakInfo;
+export default TrenchlessInfo;

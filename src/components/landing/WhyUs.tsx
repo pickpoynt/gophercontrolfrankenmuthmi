@@ -3,41 +3,41 @@ import { Shield, Microscope, MapPin, Building2, ClipboardCheck, Zap, Award, Chec
 const reasons = [
   {
     icon: Award,
-    title: "Dallas Clay Soil Experts",
-    description: "We understand how Dallas's expansive clay soil puts extreme stress on under-slab plumbing, leading to cracks and pipe failures."
-  },
-  {
-    icon: Microscope,
-    title: "Electronic Precision",
-    description: "Why dig up your whole house? We pinpoint leaks within inches using world-class sonar, saving thousands in repair costs."
-  },
-  {
-    icon: Building2,
-    title: "Foundation Focused",
-    description: "We don't just fix pipes; we protect your home's structure. We work closely with foundation experts to ensure a holistic solution."
+    title: "Arizona Soil Experts",
+    description: "Phoenix's hard-packed caliche soil makes traditional digging incredibly expensive. Our trenchless methods bypass the desert's toughest earth."
   },
   {
     icon: CheckCircle2,
-    title: "Master Plumber Led",
-    description: "Every diagnostic is overseen by Texas Master Plumbers with decades of specific experience in slab leak detection and repair."
+    title: "Eco-Friendly Tech",
+    description: "Trenchless repair uses 80% less heavy machinery, protecting your landscape and reducing the carbon footprint of your home repair."
   },
   {
-    icon: Shield,
-    title: "Upfront DFW Pricing",
-    description: "No hidden fees. We provide clear, fixed-price quotes for detection and repair so you can make informed decisions about your home."
+    icon: Building2,
+    title: "Zero Landscape Damage",
+    description: "Keep your pavers, mature palm trees, and pools exactly where they are. We only need two small access points to replace an entire line."
+  },
+  {
+    icon: ClipboardCheck,
+    title: "Licensed & Certified",
+    description: "We are factory-certified installers of industry-leading trenchless systems, backed by full Arizona plumbing licenses and bonding."
+  },
+  {
+    icon: Zap,
+    title: "Rapid Completion",
+    description: "Traditional sewer replacement can take a week. Most of our trenchless lining projects are completed and live in a single business day."
   },
   {
     icon: MapPin,
-    title: "Local Dallas Service",
-    description: "Based in the heart of the DFW Metroplex. From Lakewood to Highland Park and North Dallas, we're your local neighbor experts."
+    title: "Phoenix-Wide Service",
+    description: "From North Mountain to Ahwatukee and Scottsdale to Glendale—we are your local, rapid-response trenchless specialists."
   }
 ];
 
 const stats = [
-  { number: "5000+", label: "Leaks Detected" },
-  { number: "24/7", label: "Service" },
-  { number: "Zero", label: "Damage Goal" },
-  { number: "Licensed", label: "In Texas" }
+  { number: "25k+", label: "Feet of Pipe Lined" },
+  { number: "1-Day", label: "Completion Time" },
+  { number: "50-Yr", label: "Pipe Life Span" },
+  { number: "Licensed", label: "In Arizona" }
 ];
 
 const WhyUs = () => {
@@ -46,10 +46,10 @@ const WhyUs = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-heading font-bold text-slate-900 mb-4">
-            Why Trusted Dallas Homeowners Choose Us
+            Phoenix's First Choice for No-Dig Sewer Repair
           </h2>
           <p className="text-lg text-slate-600 max-w-2xl mx-auto">
-            Slab leaks are complex and high-stakes. Our combination of technology and experience provides the most reliable protection for your Dallas investment.
+            Experience the future of plumbing. We combine aerospace-grade epoxy with expert Arizona craftsmanship to deliver sewer solutions that last a lifetime.
           </p>
         </div>
 

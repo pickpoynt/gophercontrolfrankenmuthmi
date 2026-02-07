@@ -16,7 +16,7 @@ const Header = () => {
 
   const navLinks = [
     { name: "Services", href: "#services" },
-    { name: "Slab Leaks", href: "#dallas-leak-info" },
+    { name: "No-Dig Tech", href: "#trenchless-info" },
     { name: "FAQ", href: "#faq" },
     { name: "Contact", href: "#contact" },
   ];
@@ -35,10 +35,10 @@ const Header = () => {
             </div>
             <div>
               <span className={`font-heading font-bold text-xl block leading-none ${isScrolled ? "text-slate-900" : "text-white"}`}>
-                Dallas
+                Phoenix
               </span>
               <span className={`text-sm font-medium ${isScrolled ? "text-blue-600" : "text-blue-100"}`}>
-                Slab Leak Pros
+                Trenchless Pros
               </span>
             </div>
           </div>
