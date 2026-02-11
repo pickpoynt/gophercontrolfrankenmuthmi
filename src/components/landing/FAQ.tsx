@@ -1,23 +1,23 @@
 const faqs = [
   {
-    question: "Why does mold grow so fast in Ambler garages?",
-    answer: "Ambler's high humidity, combined with concrete floors that stay cool, creates the perfect condensation point. When you store organic materials like cardboard boxes, wood tools, or drywall, mold finds an abundant food source in an unconditioned environment."
+    question: "Can you save clothes that have visible mold on them?",
+    answer: "In many cases, yes. We use specialized HEPA vacuuming for dry spores combined with textile-safe antimicrobial treatments and professional laundering advice. High-value silks, leathers, and wools often require our boutique decontamination protocols to be fully restored."
   },
   {
-    question: "Is garage mold dangerous if it's not inside my house?",
-    answer: "Yes. Spores from your garage are easily tracked into your home on shoes or clothing. Additionally, if the garage is attached, air often leaks into the home's living areas via common walls or HVAC equipment, compromising your indoor air quality."
+    question: "Why does mold grow back in the same closet every year?",
+    answer: "This is usually due to a combination of stagnant air and 'thermal bridging'—where the closet wall is colder than the rest of the room. We identify these moisture triggers and provide long-term solutions, such as ventilation improvements or antimicrobial coatings, to stop the cycle."
   },
   {
-    question: "Can you save my stored items (tools, bins, boxes)?",
-    answer: "In many cases, yes. We use specialized HEPA vacuuming and antimicrobial wiping for non-porous items like tools and plastic bins. For porous items like cardboard boxes, we often recommend transferring contents to new, sanitized containers."
+    question: "Are your cleaning chemicals safe for my boutique clothing?",
+    answer: "Yes. We prioritize botanical, VOC-free antimicrobials that are hospital-grade but safe for luxury fabrics. Our technicians are trained to treat delicate materials without causing staining or fiber degradation."
   },
   {
-    question: "How long does a garage mold remediation take?",
-    answer: "Most garage projects in Ambler are completed in 1 to 2 days, depending on the severity and volume of stored items. Our process includes containment, cleaning, and a 24-hour air scrubbing period."
+    question: "Do I need to empty the entire closet before you arrive?",
+    answer: "For a full remediation, yes. However, we can assist with the inventory and safe removal of items to a filtered containment area to prevent spores from spreading throughout your Ambler home."
   },
   {
-    question: "How can I prevent mold from returning to my garage?",
-    answer: "We recommend improving ventilation with soffit or ridge vents, installing a vapor barrier over concrete floors, and maintaining humidity levels below 50% using a professional industrial dehumidifier."
+    question: "How long does a typical closet cleanup take?",
+    answer: "Most closet remediation projects in Ambler are completed in a single day. This includes containment, air scrubbing, structural cleaning, and antimicrobial application. Larger walk-in suites may require a follow-up air quality verification."
   }
 ];
 
@@ -28,10 +28,10 @@ const FAQ = () => {
         <div className="max-w-3xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-5xl font-heading font-bold text-slate-900 mb-6">
-              Garage Remediation FAQ
+              Closet Restoration FAQ
             </h2>
             <p className="text-xl text-slate-600 font-medium leading-relaxed">
-              Expert answers to common questions about garage mold and air quality in Montgomery County.
+              Expert answers to common questions about small-space mold and garment protection in Ambler.
             </p>
           </div>
 
@@ -39,12 +39,12 @@ const FAQ = () => {
             {faqs.map((faq, index) => (
               <div
                 key={index}
-                className="p-8 rounded-3xl bg-white border border-slate-100 hover:border-orange-200 transition-all duration-300 shadow-sm hover:shadow-xl hover:shadow-orange-500/5 group"
+                className="p-8 rounded-3xl bg-white border border-slate-100 hover:border-purple-200 transition-all duration-300 shadow-sm hover:shadow-xl hover:shadow-purple-500/5 group"
               >
-                <h3 className="text-xl font-bold text-slate-900 mb-4 group-hover:text-orange-700 transition-colors flex items-start gap-3">
-                  <span className="text-orange-500">Q:</span> {faq.question}
+                <h3 className="text-xl font-bold text-slate-900 mb-4 group-hover:text-purple-700 transition-colors flex items-start gap-3">
+                  <span className="text-purple-500">Q:</span> {faq.question}
                 </h3>
-                <p className="text-slate-600 leading-relaxed font-medium pl-8 border-l-2 border-orange-100">
+                <p className="text-slate-600 leading-relaxed font-medium pl-8 border-l-2 border-purple-100">
                   {faq.answer}
                 </p>
               </div>
