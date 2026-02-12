@@ -31,10 +31,10 @@ const WhyUs = () => {
       <div className="container mx-auto px-4 relative z-10">
         <div className="max-w-3xl mb-16 px-4">
           <h2 className="text-3xl md:text-5xl font-heading font-bold mb-6 uppercase tracking-tight">
-            Why Haddon Heights Homeowners Choose Our <span className="text-indigo-400">Attic Reset</span>
+            Why Haddon Heights Homeowners Choose Our <span className="text-indigo-400">Foundation Reset</span>
           </h2>
           <p className="text-xl text-slate-400 leading-relaxed font-medium italic">
-            Attic mold is a signal of roof-level environmental failure. Our Camden County specialists restore structural health and air purity from the top down.
+            Crawl space mold is a structural threat you can't see but can definitely breathe. Our Camden County specialists restore foundation health from the ground up.
           </p>
         </div>
 
@@ -42,23 +42,23 @@ const WhyUs = () => {
           {[
             {
               icon: Wind,
-              title: "HEPA-Pulse Removal",
-              description: "Our high-pressure HEPA extraction systems clean deep into the wood grain of your attic decking without spreading spores."
+              title: "Scientific Extraction",
+              description: "We use surgical negative-air containment and HEPA filtration to extract mold spores without cross-contaminating your Haddon Heights home."
             },
             {
               icon: Search,
-              title: "Leak Path Mapping",
-              description: "Detecting the exact roof and flashing failures that create the moisture environment attic mold needs to survive."
+              title: "Intrusion Mapping",
+              description: "Using digital moisture diagnostics to find the exact groundwater entry points fueling crawl space mold colonies."
             },
             {
               icon: ShieldCheck,
-              title: "IICRC Certified",
-              description: "Our Haddon Heights teams follow strict S520 mold remediation standards for safe, laboratory-verified biological removal."
+              title: "IICRC Standards",
+              description: "Our Haddon Heights foundation teams follow strict S520 remediation protocols for safe, laboratory-verified biological removal."
             },
             {
               icon: Activity,
-              title: "Airflow Optimization",
-              description: "We don't just clear mold—we re-engineer your attic ventilation to prevent future condensation and microbial growth."
+              title: "20-Mil Shield",
+              description: "We don't just 'wipe' mold—we install heavy-duty reinforced vapor barriers to permanently decouple your home from earth moisture."
             }
           ].map((feature, index) => (
             <div
@@ -78,9 +78,9 @@ const WhyUs = () => {
 
         <div className="mt-20 p-10 rounded-[3rem] bg-gradient-to-br from-indigo-600 to-indigo-800 flex flex-col md:flex-row items-center justify-between gap-8 shadow-2xl shadow-indigo-900/40">
           <div className="max-w-xl">
-            <h3 className="text-3xl font-bold text-white mb-4">Dark Spots in the Attic?</h3>
+            <h3 className="text-3xl font-bold text-white mb-4">Musty Odors from Below?</h3>
             <p className="text-indigo-50 text-lg font-medium opacity-90">
-              Our Haddon Heights diagnostic teams can identify attic mold species and provide a full remediation plan within 24 hours.
+              Our Haddon Heights diagnostic teams can identify sub-floor mold species and provide a full foundation remediation plan within 24 hours.
             </p>
           </div>
           <a

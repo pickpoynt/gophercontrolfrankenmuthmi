@@ -33,10 +33,10 @@ const Services = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16 max-w-3xl mx-auto">
           <h2 className="text-3xl md:text-5xl font-heading font-bold text-slate-900 mb-6 uppercase tracking-tight">
-            Attic <span className="text-indigo-600">Restoration Science</span>
+            Foundation <span className="text-indigo-600">Restoration Science</span>
           </h2>
           <p className="text-xl text-slate-600 font-medium italic">
-            Haddon Heights attics require specialized moisture management. We don't just clear attic mold; we engineer environments where it cannot return.
+            Haddon Heights foundations require specialized moisture management. We don't just clear crawl space mold; we engineer environments where it cannot return.
           </p>
         </div>
 
@@ -44,26 +44,26 @@ const Services = () => {
           {[
             {
               icon: Wind,
-              title: "Attic Mold Removal",
-              description: "Surgical extraction of toxic black and white mold from structural roof decking and attic joists in Haddon Heights homes.",
+              title: "Crawl Space Removal",
+              description: "Surgical extraction of toxic mold from structural floor joists and sub-flooring in Haddon Heights homes.",
               link: "#musty-odor-info"
             },
             {
               icon: Microscope,
-              title: "Spore Neutralization",
-              description: "Chemical neutralization of airborne mold spores using hospital-grade biocides and advanced HEPA filtration protocols.",
+              title: "Slab Decontamination",
+              description: "Chemical neutralization of embedded mold spores on concrete floors and block foundation walls using industrial biocides.",
               link: "#musty-odor-info"
             },
             {
               icon: Gauge,
-              title: "Insulation Reset",
-              description: "Complete removal of mold-contaminated insulation followed by precision air-sealing and high-efficiency replacement.",
+              title: "Encapsulation Pro",
+              description: "Installation of high-durability 20-mil vapor barriers to isolate your crawl space from the earth's natural moisture cycle.",
               link: "#musty-odor-info"
             },
             {
               icon: Shield,
-              title: "Ventilation Audit",
-              description: "Digital analysis of attic airflow to identify ridge vent, soffit, or baffle failures that cause condensation and mold.",
+              title: "HEPA Air Scrubbing",
+              description: "Continuous air filtration during remediation to ensure mold spores never reach the living areas of your Haddon Heights home.",
               link: "#musty-odor-info"
             }
           ].map((service, index) => (

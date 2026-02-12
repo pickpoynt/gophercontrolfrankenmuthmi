@@ -8,19 +8,19 @@ interface HeroProps {
 }
 
 const Hero = ({
-  title = "Attic mold remediation Haddon Heights",
-  subtitle = "Structural roof mold can compromise your home's value and air health. We specialize in deep-extraction attic remediation, insulation resets, and ventilation audits for Haddon Heights residences.",
-  image = "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&q=80"
+  title = "Crawl space mold removal Haddon Heights",
+  subtitle = "Is moisture trapped beneath your home? We specialize in scientific crawl space mold extraction, high-durability vapor barriers, and environmental resets for Haddon Heights residences.",
+  image = "https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&q=80"
 }: HeroProps) => {
   return (
     <section className="relative min-h-screen flex items-center pt-20 overflow-hidden">
       {/* Background Image with Unique Overlay */}
       <div className="absolute inset-0 z-0">
-        <img src={image} alt="Attic mold remediation Haddon Heights" className="w-full h-full object-cover brightness-[0.4]" />
-        {/* UNIQUE OVERLAY IMAGE: Using a crystal/frost texture overlay to represent mold/spores but abstractly */}
-        <div className="absolute inset-0 opacity-20 mix-blend-screen overflow-hidden">
+        <img src={image} alt="Crawl space mold removal Haddon Heights" className="w-full h-full object-cover brightness-[0.4]" />
+        {/* UNIQUE OVERLAY IMAGE: Using a deep liquid/water texture overlay to represent sub-floor moisture issues */}
+        <div className="absolute inset-0 opacity-15 mix-blend-screen overflow-hidden">
           <img
-            src="https://images.unsplash.com/photo-1550684848-fac1c5b4e853?auto=format&fit=crop&q=80"
+            src="https://images.unsplash.com/photo-1518173946687-a4c8a98039f5?auto=format&fit=crop&q=80"
             alt="Atmospheric Particles Overlay"
             className="w-full h-full object-cover scale-150 animate-pulse transition-all duration-[14000ms]"
           />
@@ -32,7 +32,7 @@ const Hero = ({
         <div className="max-w-3xl">
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-indigo-500/10 border border-indigo-500/20 text-indigo-400 mb-8 animate-fade-in shadow-lg shadow-indigo-500/5 uppercase tracking-widest text-[10px] items-center font-bold">
             <Wind className="w-4 h-4" />
-            <span>HADDON HEIGHTS CERTIFIED ATTIC MOLD PROS</span>
+            <span>HADDON HEIGHTS CERTIFIED CRAWL SPACE PROS</span>
           </div>
 
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-heading font-bold text-white mb-8 animate-fade-in leading-[1.1] uppercase tracking-tight">

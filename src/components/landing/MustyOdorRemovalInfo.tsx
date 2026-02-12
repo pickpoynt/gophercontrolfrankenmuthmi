@@ -9,18 +9,18 @@ const MustyOdorRemovalInfo = () => {
                         <div className="absolute -top-10 -left-10 w-64 h-64 bg-indigo-100 rounded-full blur-3xl opacity-60" />
                         <div className="relative z-10 rounded-[3rem] overflow-hidden shadow-2xl border-8 border-white">
                             <img
-                                src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&q=80"
-                                alt="Attic mold remediation Haddon Heights"
+                                src="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&q=80"
+                                alt="Crawl space mold removal Haddon Heights"
                                 className="w-full h-auto"
                             />
                             <div className="absolute inset-0 bg-gradient-to-t from-slate-950/60 to-transparent" />
                             <div className="absolute bottom-8 left-8 right-8 bg-white/95 backdrop-blur-md p-6 rounded-2xl">
                                 <div className="flex items-center gap-3 mb-2 text-indigo-600">
                                     <Wind className="w-5 h-5" />
-                                    <span className="font-bold uppercase tracking-wider text-sm">Attic Restoration Science</span>
+                                    <span className="font-bold uppercase tracking-wider text-sm">Foundation Restoration Science</span>
                                 </div>
                                 <p className="text-slate-800 font-medium">
-                                    Haddon Heights attics face unique moisture challenges. We provide surgical mold extraction and insulation resets.
+                                    Haddon Heights crawl spaces often face severe humidity. We provide geological-grade mold extraction and encapsulation.
                                 </p>
                             </div>
                         </div>
@@ -31,29 +31,29 @@ const MustyOdorRemovalInfo = () => {
 
                     <div className="lg:w-1/2">
                         <h2 className="text-3xl md:text-5xl font-heading font-bold text-slate-900 mb-8 leading-tight">
-                            Scientific <span className="text-indigo-600 uppercase">ATTIC REMEDIATION</span> for Haddon Heights Homes
+                            Scientific <span className="text-indigo-600 uppercase">CRAWL SPACE REMEDIATION</span> for Haddon Heights Bases
                         </h2>
 
                         <p className="text-lg text-slate-600 mb-8 leading-relaxed italic">
-                            Identifying "Attic mold remediation Haddon Heights" early is critical to preventing structural rot and cross-contamination. <strong className="text-slate-900 uppercase">Attic mold</strong> often goes unnoticed until it affects your home's air quality or causes wood decay.
+                            Identifying "Crawl space mold removal Haddon Heights" is crucial for maintaining your home's skeletal health. Mold thriving in the darkness of a crawl space can cause <strong className="text-slate-900 uppercase">structural rot</strong> and release millions of spores into your home's air.
                         </p>
 
                         <div className="space-y-6">
                             {[
                                 {
                                     icon: Wind,
-                                    title: "Negative Air Containment",
-                                    desc: "We use high-volume HEPA air scrubbers to create a sealed environment, ensuring mold spores are captured and filtered out of your Haddon Heights attic during remediation."
+                                    title: "Sub-Floor Extraction",
+                                    desc: "We use high-velocity negative air systems to pull mold spores directly from the floor and masonry walls of your Haddon Heights crawl space."
                                 },
                                 {
                                     icon: Microscope,
-                                    title: "Roof-Level Diagnostics",
-                                    desc: "Our technicians perform deep-thermal imaging to find roof leaks or ventilation failures that are feeding the mold colonies in your attic space."
+                                    title: "Thermal Intrusion Mapping",
+                                    desc: "Our diagnostic teams use infrared technology to find hidden groundwater leaks that provide the moisture mold needs to colonization your sub-floor."
                                 },
                                 {
                                     icon: CheckCircle2,
-                                    title: "Insulation Restoration",
-                                    desc: "We don't just clean—we restore. Our team provides professional insulation removal and replacement to reset your home's thermal and biological health."
+                                    title: "Encapsulation Shields",
+                                    desc: "Beyond cleaning, we seal. Our 20-mil reinforced vapor barriers create a permanent physical shield between the earth's moisture and your home's wood structure."
                                 }
                             ].map((item, idx) => (
                                 <div key={idx} className="flex gap-4 p-6 rounded-2xl bg-slate-50 border border-slate-100 hover:border-indigo-200 transition-colors group">
@@ -83,7 +83,7 @@ const MustyOdorRemovalInfo = () => {
                                     </div>
                                 ))}
                                 <div className="pl-4 text-sm font-bold text-slate-500 italic uppercase tracking-wider">
-                                    Serving Haddon Heights structures since 2012
+                                    Safeguarding Haddon Heights foundations since 2012
                                 </div>
                             </div>
                         </div>

@@ -1,23 +1,23 @@
 const faqs = [
   {
-    question: "How did mold get into my Haddon Heights attic in the first place?",
-    answer: "Most attic mold in Haddon Heights is caused by poor ventilation (blocked soffits), roof leaks, or bathroom exhaust fans venting directly into the attic. These factors create high humidity levels that allow spores to settle and grow on the organic wood decking."
+    question: "How does mold grow in a Haddon Heights crawl space?",
+    answer: "Haddon Heights foundations are subject to high groundwater and humidity. If the crawl space isn't properly sealed, moisture from the earth evaporates and condenses on wooden floor joists, providing the perfect environment for mold colonization."
   },
   {
-    question: "Do I need to replace all the wood in my attic if there is mold?",
-    answer: "Not usually. In most cases, we can use HEPA-vacuuming and dry-ice blasting or specialized antimicrobial cleaning to remove mold from the surface of the wood. We only recommend replacement if the structural integrity of the rafters is compromised by rot."
+    question: "Can crawl space mold affect the air in my living room?",
+    answer: "Yes, significantly. Due to the 'stack effect,' air in your home naturally moves from the bottom to the top. This means that spore-laden air from your crawl space is pulled upwards and circulated throughout your entire home's living areas."
   },
   {
-    question: "Will the mold in my attic move down into my living spaces?",
-    answer: "Yes, potentially. Air in your home moves via the 'stack effect.' While attic air usually moves out, temperature fluctuations can cause spore-laden air to drop into your home's living areas, affecting your family's air quality."
+    question: "Do I have to move out during the mold removal process?",
+    answer: "Usually not. We use advanced negative air containment and HEPA air scrubbers to isolate the crawl space. This ensures that no dust or spores escape into your Haddon Heights living spaces during the remediation process."
   },
   {
-    question: "How long does attic mold remediation take?",
-    answer: "Most Haddon Heights residential attic projects are completed within 1 to 2 days. This includes the removal of contaminated insulation, biological cleaning of the wood decking, and the application of an antimicrobial sealant."
+    question: "What is the difference between cleaning and encapsulation?",
+    answer: "Cleaning removes existing mold growth. Encapsulation is a permanent preventive solution where we seal the floors and walls with a heavy-duty vapor barrier to stop the moisture cycle that mold needs to grow."
   },
   {
-    question: "Does attic mold affect my home's resale value?",
-    answer: "Absolutely. Most home inspectors in Camden County will flag attic mold as a major issue. Professional remediation with a transferrable warranty is often required to successfully close a real estate transaction."
+    question: "Is your crawl space mold treatment safe for my pets?",
+    answer: "Absolutely. We use EPA-approved, hospital-grade antimicrobial solutions that are safe for your family and pets once the treated area has dried and been properly ventilated by our crews."
   }
 ];
 
@@ -31,7 +31,7 @@ const FAQ = () => {
               Remediation <span className="text-indigo-600">Science FAQ</span>
             </h2>
             <p className="text-xl text-slate-600 font-medium leading-relaxed italic">
-              Expert answers to common questions about attic mold remediation and structural restoration in Haddon Heights and Camden County.
+              Expert answers to common questions about crawl space mold removal and foundation restoration in Haddon Heights and Camden County.
             </p>
           </div>
 

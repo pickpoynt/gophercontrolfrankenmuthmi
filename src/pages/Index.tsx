@@ -15,18 +15,18 @@ const Index = () => {
   return (
     <div className="min-h-screen">
       <Helmet>
-        <title>Attic mold remediation Haddon Heights</title>
-        <meta name="description" content="Attic mold remediation Haddon Heights. Professional attic mold removal and insulation restoration in Haddon Heights, NJ. IICRC certified experts. Call (380) 266-0944!" />
-        <meta name="keywords" content="Attic mold remediation Haddon Heights, attic mold removal Haddon Heights NJ, Camden County mold remediation, roof leak mold cleanup" />
-        <link rel="canonical" href="https://haddon-heights-attic-mold.com/" />
+        <title>Crawl space mold removal Haddon Heights</title>
+        <meta name="description" content="Crawl space mold removal Haddon Heights. Expert crawl space mold remediation and moisture control in Haddon Heights, NJ. Professional mold cleanup. Call (380) 266-0944!" />
+        <meta name="keywords" content="Crawl space mold removal Haddon Heights, crawl space mold remediation Haddon Heights NJ, Camden County mold removal, foundation mold cleanup" />
+        <link rel="canonical" href="https://haddon-heights-crawlspace-mold.com/" />
 
         {/* JSON-LD schema for LocalBusiness */}
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
-            "name": "Haddon Heights Attic Mold Pros",
-            "image": "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&q=80",
+            "name": "Haddon Heights Crawl Space Pros",
+            "image": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&q=80",
             "telephone": "+1-380-266-0944",
             "address": {
               "@type": "PostalAddress",
@@ -46,7 +46,7 @@ const Index = () => {
               "name": "Haddon Heights, Camden County, NJ"
             },
             "priceRange": "$$",
-            "description": "Specialized attic mold remediation in Haddon Heights, NJ. We eliminate toxic attic mold, restore insulation, and address roof-level moisture issues using advanced HEPA filtration."
+            "description": "Professional crawl space mold removal in Haddon Heights, NJ. We specialize in deep-extraction mold remediation, vapor barrier installation, and structural dry-out for Haddon Heights foundations."
           })}
         </script>
 
@@ -55,10 +55,10 @@ const Index = () => {
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Service",
-            "serviceType": "Attic Mold Remediation",
+            "serviceType": "Crawl Space Mold Removal",
             "provider": {
               "@type": "LocalBusiness",
-              "name": "Haddon Heights Attic Mold Pros",
+              "name": "Haddon Heights Crawl Space Pros",
               "telephone": "+1-380-266-0944"
             },
             "areaServed": {
@@ -67,34 +67,34 @@ const Index = () => {
             },
             "hasOfferCatalog": {
               "@type": "OfferCatalog",
-              "name": "Attic Restoration Services",
+              "name": "Crawl Space Restoration Services",
               "itemListElement": [
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "Mold Spore HEPA Vacuuming"
+                    "name": "Biological Mold Extraction"
                   }
                 },
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "Attic Insulation Restoration"
+                    "name": "Vapor Barrier Encapsulation"
                   }
                 },
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "Biological Air Scrubbing"
+                    "name": "HEPA Air Scrubbing"
                   }
                 },
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "Antimicrobial Deck Treatment"
+                    "name": "Sub-Floor Moisture Control"
                   }
                 }
               ]
@@ -103,11 +103,11 @@ const Index = () => {
         </script>
 
         {/* Open Graph Tags */}
-        <meta property="og:title" content="Attic mold remediation Haddon Heights" />
-        <meta property="og:description" content="Professional attic mold removal in Haddon Heights, NJ. Permanent remediation for roof leak and ventilation issues." />
+        <meta property="og:title" content="Crawl space mold removal Haddon Heights" />
+        <meta property="og:description" content="Expert crawl space mold removal in Haddon Heights, NJ. Permanent remediation for foundation moisture and mold issues." />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://haddon-heights-attic-mold.com/" />
-        <meta property="og:image" content="https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&q=80" />
+        <meta property="og:url" content="https://haddon-heights-crawlspace-mold.com/" />
+        <meta property="og:image" content="https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&q=80" />
       </Helmet>
 
       <Header />
@@ -115,12 +115,12 @@ const Index = () => {
         <Hero
           title={
             <>
-              Attic mold remediation Haddon Heights
-              <span className="block text-indigo-400 mt-2">HADDON HEIGHTS ATTIC MOLD PROS: STRUCTURAL CARE</span>
+              Crawl space mold removal Haddon Heights
+              <span className="block text-indigo-400 mt-2">HADDON HEIGHTS CRAWL SPACE PROS: FOUNDATION CARE</span>
             </>
           }
-          subtitle="Structural roof mold can compromise your home's value and air health. We specialize in deep-extraction attic remediation, insulation resets, and ventilation audits for Haddon Heights residences."
-          image="https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&q=80"
+          subtitle="Is moisture trapped beneath your home? We specialize in scientific crawl space mold extraction, high-durability vapor barriers, and environmental resets for Haddon Heights residences."
+          image="https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&q=80"
         />
         <Services />
         <WhyUs />
