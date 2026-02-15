@@ -7,16 +7,16 @@ import {
 
 const faqs = [
   {
-    question: "Do you offer emergency plumbing in North Olmsted?",
-    answer: "Yes. Our North Olmsted teams are available 24/7 for technical plumbing diagnostics, pipe restoration, and local maintenance. We provide rapid support across Cuyahoga County to protect your property."
+    question: "Do you offer emergency plumbing in West Chester?",
+    answer: "Yes. Our West Chester teams are available 24/7 for technical plumbing diagnostics, pipe restoration, and local maintenance. We provide rapid support across Butler County to protect your property."
   },
   {
-    question: "How do you handle diverse plumbing systems in Ohio?",
-    answer: "We specialize in the maintenance and technical upgrading of both mid-century and modern residential plumbing systems common in North Olmsted and Westlake."
+    question: "How do you handle Butler County plumbing codes?",
+    answer: "We specialize in the maintenance and technical upgrading of residential plumbing systems to meet and exceed current Butler County and Ohio state building standards."
   },
   {
-    question: "Are your plumbers licensed for Cuyahoga County projects?",
-    answer: "Absolutely. Our technicians are fully master-licensed and insured professionals who adhere strictly to Ohio state building codes and local Cuyahoga municipal standards."
+    question: "Are your plumbers licensed for West Chester projects?",
+    answer: "Absolutely. Our technicians are fully master-licensed and insured professionals who adhere strictly to Ohio state building codes and local Butler County municipal standards."
   },
   {
     question: "Will you provide a technical assessment before starting?",
@@ -31,10 +31,10 @@ const FAQ = () => {
         <div className="text-center mb-16 max-w-3xl mx-auto">
           <span className="text-emerald-600 font-bold tracking-widest uppercase text-sm">Common Questions</span>
           <h2 className="text-3xl md:text-5xl font-heading font-bold text-slate-900 mt-4 mb-6">
-            North Olmsted Plumbing <span className="text-emerald-600">FAQ</span>
+            West Chester Plumbing <span className="text-emerald-600">FAQ</span>
           </h2>
           <p className="text-xl text-slate-600 font-medium italic">
-            Answers to common questions about residential infrastructure and expert plumbing care in North Olmsted, Ohio.
+            Answers to common questions about residential infrastructure and expert plumbing care in West Chester, Ohio.
           </p>
         </div>
 

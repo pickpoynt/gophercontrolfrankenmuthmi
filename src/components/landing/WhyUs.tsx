@@ -11,10 +11,10 @@ const WhyUs = () => {
       <div className="container mx-auto px-4 relative z-10">
         <div className="max-w-3xl mb-16 mx-auto text-center">
           <h2 className="text-3xl md:text-5xl font-heading font-bold mb-6 uppercase tracking-tight">
-            Why North Olmsted Trusts Our <span className="text-gold-400">Master Plumbers</span>
+            Why West Chester Trusts Our <span className="text-gold-400">Master Plumbers</span>
           </h2>
           <p className="text-xl text-slate-400 leading-relaxed font-medium italic">
-            Protecting Cuyahoga County infrastructure with technical precision. We specialize in advanced residential plumbing restoration and rapid local support for North Olmsted property owners.
+            Protecting Butler County infrastructure with technical precision. We specialize in advanced residential plumbing restoration and rapid local support for West Chester property owners.
           </p>
         </div>
 
@@ -27,13 +27,13 @@ const WhyUs = () => {
             },
             {
               icon: MapPin,
-              title: "North Olmsted Local Ready",
-              description: "Our teams are based in Cuyahoga County, meaning rapid response times when pipe failures and infrastructure issues appear in North Olmsted or the surrounding Westside suburbs."
+              title: "West Chester Local Ready",
+              description: "Our teams are based in Butler County, meaning rapid response times when pipe failures and infrastructure issues appear in West Chester or the surrounding premier suburbs."
             },
             {
               icon: Calendar,
               title: "Emergency Response",
-              description: "Plumbing failures are constant threats. We offer priority dispatching for North Olmsted system assessments and rapid restoration."
+              description: "Plumbing failures are constant threats. We offer priority dispatching for West Chester system assessments and rapid restoration."
             },
             {
               icon: DollarSign,
@@ -60,7 +60,7 @@ const WhyUs = () => {
           <div className="max-w-xl">
             <h3 className="text-3xl font-bold text-white mb-4">Plumbing Emergency?</h3>
             <p className="text-blue-50 text-lg font-medium opacity-90">
-              Don't wait for structural damage. Our North Olmsted specialist team is ready to restore your systems 24/7.
+              Don't wait for structural damage. Our West Chester specialist team is ready to restore your systems 24/7.
             </p>
           </div>
           <a

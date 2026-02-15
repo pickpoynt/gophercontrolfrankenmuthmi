@@ -9,7 +9,7 @@ const Services = () => {
             Comprehensive <span className="text-emerald-600">Plumbing Services</span>
           </h2>
           <p className="text-xl text-slate-600 font-medium italic">
-            North Olmsted property owners trust us for advanced infrastructure diagnostics and precision plumbing restoration. We provide master-licensed care for the entire Cuyahoga region.
+            West Chester property owners trust us for technical infrastructure diagnostics and precision plumbing restoration. We provide master-licensed care for the premier Butler County communities.
           </p>
         </div>
 

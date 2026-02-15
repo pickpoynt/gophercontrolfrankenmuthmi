@@ -2,7 +2,7 @@ import Header from "@/components/landing/Header";
 import Hero from "@/components/landing/Hero";
 import Services from "@/components/landing/Services";
 import WhyUs from "@/components/landing/WhyUs";
-import NorthOlmstedPlumbingInfo from "@/components/landing/NorthOlmstedPlumbingInfo";
+import WestChesterPlumbingInfo from "@/components/landing/WestChesterPlumbingInfo";
 import FAQ from "@/components/landing/FAQ";
 import Contact from "@/components/landing/Contact";
 import Footer from "@/components/landing/Footer";
@@ -15,38 +15,38 @@ const Index = () => {
   return (
     <div className="min-h-screen">
       <Helmet>
-        <title>plumber north olmsted ohio North Olmsted OH</title>
-        <meta name="description" content="plumber north olmsted ohio North Olmsted OH - Precision plumbing repair, leak detection & infrastructure maintenance. Reliable residential and commercial services for North Olmsted, Ohio. Call (877) 792-1410!" />
-        <meta name="keywords" content="plumber north olmsted ohio, North Olmsted plumber, plumbing repair North Olmsted, emergency plumber North Olmsted, Cuyahoga County plumbing, North Olmsted leak detection" />
-        <link rel="canonical" href="https://north-olmsted-plumbing-pros.com/" />
+        <title>plumber west chester ohio West Chester OH</title>
+        <meta name="description" content="plumber west chester ohio West Chester OH - Precision plumbing repair, leak detection & infrastructure maintenance. Reliable residential and commercial services for West Chester, Ohio. Call (877) 792-1410!" />
+        <meta name="keywords" content="plumber west chester ohio, West Chester plumber, plumbing repair West Chester, emergency plumber West Chester, Butler County plumbing, West Chester leak detection" />
+        <link rel="canonical" href="https://west-chester-plumbing-pros.com/" />
 
         {/* JSON-LD schema for LocalBusiness */}
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
-            "name": "North Olmsted Plumbing Pros",
-            "image": "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&q=80&w=1200",
+            "name": "West Chester Plumbing Pros",
+            "image": "https://images.unsplash.com/photo-1542013936693-8846383242?auto=format&fit=crop&q=80&w=1200",
             "telephone": "+18777921410",
             "address": {
               "@type": "PostalAddress",
-              "addressLocality": "North Olmsted",
+              "addressLocality": "West Chester",
               "addressRegion": "OH",
-              "postalCode": "44070",
+              "postalCode": "45069",
               "addressCountry": "US"
             },
             "geo": {
               "@type": "GeoCoordinates",
-              "latitude": "41.4156",
-              "longitude": "-81.9235"
+              "latitude": "39.3321",
+              "longitude": "-84.4073"
             },
             "openingHours": "Mo-Su 00:00-23:59",
             "serviceArea": {
               "@type": "Place",
-              "name": "North Olmsted, OH"
+              "name": "West Chester, OH"
             },
             "priceRange": "$$",
-            "description": "Professional residential plumbing services in North Olmsted, Ohio. We specialize in technical diagnostics, infrastructure restoration, and master-licensed care for Cuyahoga County property owners."
+            "description": "Professional residential plumbing services in West Chester, Ohio. We specialize in technical diagnostics, infrastructure restoration, and master-licensed care for Butler County property owners."
           })}
         </script>
 
@@ -58,36 +58,36 @@ const Index = () => {
             "serviceType": "Technical Residential Plumbing",
             "provider": {
               "@type": "LocalBusiness",
-              "name": "North Olmsted Plumbing Pros",
+              "name": "West Chester Plumbing Pros",
               "telephone": "+18777921410"
             },
             "areaServed": {
               "@type": "Place",
-              "name": "North Olmsted, Ohio"
+              "name": "West Chester, Ohio"
             },
             "hasOfferCatalog": {
               "@type": "OfferCatalog",
-              "name": "North Olmsted Plumbing Services",
+              "name": "West Chester Plumbing Services",
               "itemListElement": [
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "Acoustic Leak Detection"
+                    "name": "Fiber-Optic Main Line Tracing"
                   }
                 },
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "Main Line Infrastructure Restoration"
+                    "name": "Electronic Pressure Regulation"
                   }
                 },
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "Moisture Tracking Diagnostics"
+                    "name": "Technical Moisture Diagnostics"
                   }
                 }
               ]
@@ -96,11 +96,11 @@ const Index = () => {
         </script>
 
         {/* Open Graph Tags */}
-        <meta property="og:title" content="plumber north olmsted ohio North Olmsted OH - North Olmsted Plumbing Pros" />
-        <meta property="og:description" content="Expert plumbing solutions in North Olmsted, Ohio. Technical restoration and infrastructure maintenance for Cuyahoga County residents." />
+        <meta property="og:title" content="plumber west chester ohio West Chester OH - West Chester Plumbing Pros" />
+        <meta property="og:description" content="Expert plumbing solutions in West Chester, Ohio. Technical restoration and infrastructure maintenance for Butler County residents." />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://north-olmsted-plumbing-pros.com/" />
-        <meta property="og:image" content="https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&q=80&w=1200" />
+        <meta property="og:url" content="https://west-chester-plumbing-pros.com/" />
+        <meta property="og:image" content="https://images.unsplash.com/photo-1542013936693-8846383242?auto=format&fit=crop&q=80&w=1200" />
       </Helmet>
 
       <Header />
@@ -108,18 +108,18 @@ const Index = () => {
         <Hero
           title={
             <>
-              plumber north olmsted ohio North Olmsted OH
-              <span className="block text-indigo-400 mt-2 text-2xl md:text-3xl italic">North Olmsted Plumbing Pros</span>
+              plumber west chester ohio West Chester OH
+              <span className="block text-indigo-400 mt-2 text-2xl md:text-3xl italic">West Chester Plumbing Pros</span>
             </>
           }
-          subtitle="North Olmsted's trusted authority for resilient home infrastructure. We provide precision diagnostics, technical restoration, and master-licensed support for Northeast Ohio property owners. Cuyahoga Engineering Pride."
-          image="https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&q=80&w=2000"
-          overlayImage="https://images.unsplash.com/photo-1625904838708-5400269f96ff?auto=format&fit=crop&q=80&w=2000"
-          badge="NORTH OLMSTED MASTER PLUMBERS"
+          subtitle="West Chester's trusted authority for resilient home infrastructure. We provide precision diagnostics, technical restoration, and master-licensed support for Butler County property owners. Engineering Excellence."
+          image="https://images.unsplash.com/photo-1542013936693-8846383242?auto=format&fit=crop&q=80&w=2000"
+          overlayImage="https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&q=80&w=2000"
+          badge="WEST CHESTER AUTHORIZED PLUMBERS"
         />
         <Services />
         <WhyUs />
-        <NorthOlmstedPlumbingInfo />
+        <WestChesterPlumbingInfo />
         <FAQ />
         <Contact />
         <RandomLinks />
