@@ -1,4 +1,4 @@
-import { Phone, Mail, MapPin, Clock, ShieldCheck, Hammer } from "lucide-react";
+import { Phone, Mail, MapPin, Clock, ShieldCheck, Hammer, Locate } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const Contact = () => {
