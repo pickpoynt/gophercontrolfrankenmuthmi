@@ -11,12 +11,12 @@ const Footer = () => {
                 <Locate className="w-7 h-7 text-blue-500" />
               </div>
               <div>
-                <span className="font-heading font-bold text-xl block leading-none tracking-tight text-white uppercase">Murrieta Slab Leak</span>
+                <span className="font-heading font-bold text-xl block leading-none tracking-tight text-white uppercase">Southlake Slab Leak</span>
                 <span className="text-sm font-medium text-blue-500 uppercase tracking-widest text-[10px]">Pros</span>
               </div>
             </div>
             <p className="text-slate-400 mb-8 leading-relaxed font-medium italic">
-              Murrieta's specialized slab leak diagnostic experts. We provide master-grade electronic leak detection and restoration across Riverside County.
+              Southlake's specialized slab leak diagnostic experts. We provide master-grade electronic leak detection and restoration across Tarrant County.
             </p>
           </div>
 
@@ -54,8 +54,8 @@ const Footer = () => {
               <div className="flex items-start gap-4">
                 <MapPin className="w-6 h-6 text-blue-500 shrink-0" />
                 <address className="text-slate-400 not-italic font-medium leading-relaxed">
-                  24630 Washington Ave<br />
-                  Murrieta, CA 92562
+                  1400 Main St<br />
+                  Southlake, TX 76092
                 </address>
               </div>
               <div className="flex items-center gap-4">
@@ -70,7 +70,7 @@ const Footer = () => {
 
         <div className="pt-12 border-t border-slate-800 text-center">
           <p className="text-slate-500 text-sm font-medium italic">
-            © {new Date().getFullYear()} Murrieta Slab Leak Pros. All rights reserved. Riverside County Plumbing Authorities.
+            © {new Date().getFullYear()} Southlake Slab Leak Pros. All rights reserved. Tarrant County Plumbing Authorities.
           </p>
         </div>
       </div>
@@ -81,22 +81,22 @@ const Footer = () => {
         {JSON.stringify({
           "@context": "https://schema.org",
           "@type": "LocalBusiness",
-          "name": "Murrieta Slab Leak Pros",
+          "name": "Southlake Slab Leak Pros",
           "address": {
             "@type": "PostalAddress",
-            "streetAddress": "24630 Washington Ave",
-            "addressLocality": "Murrieta",
-            "addressRegion": "CA",
-            "postalCode": "92562",
+            "streetAddress": "1400 Main St",
+            "addressLocality": "Southlake",
+            "addressRegion": "TX",
+            "postalCode": "76092",
             "addressCountry": "US"
           },
           "geo": {
             "@type": "GeoCoordinates",
-            "latitude": "33.5539",
-            "longitude": "-117.2139"
+            "latitude": "32.9461",
+            "longitude": "-97.1350"
           },
           "telephone": "+18777921410",
-          "url": "https://slab-leak-detection-murrieta.com/"
+          "url": "https://slab-leak-repair-southlake-tx.com/"
         })}
       </script>
     </footer>

@@ -2,7 +2,7 @@ import Header from "@/components/landing/Header";
 import Hero from "@/components/landing/Hero";
 import Services from "@/components/landing/Services";
 import WhyUs from "@/components/landing/WhyUs";
-import MurrietaSlabLeakInfo from "@/components/landing/MurrietaSlabLeakInfo";
+import SouthlakeSlabLeakInfo from "@/components/landing/SouthlakeSlabLeakInfo";
 import FAQ from "@/components/landing/FAQ";
 import Contact from "@/components/landing/Contact";
 import Footer from "@/components/landing/Footer";
@@ -15,39 +15,39 @@ const Index = () => {
   return (
     <div className="min-h-screen">
       <Helmet>
-        <title>slab leak detection murrieta | Murrieta Slab Leak Pros</title>
-        <meta name="description" content="slab leak detection murrieta - Professional electronic slab leak detection and repair in Murrieta, CA. Expert foundation leak diagnostics and non-invasive restoration. Call (877) 792-1410." />
-        <meta name="keywords" content="slab leak detection murrieta, Murrieta CA leak detection, foundation water leak, concrete slab repair, Riverside County plumbing restoration" />
-        <link rel="canonical" href="https://slab-leak-detection-murrieta.com/" />
+        <title>slab leak repair southlake tx | Southlake Slab Leak Pros</title>
+        <meta name="description" content="slab leak repair southlake tx - Professional electronic slab leak detection and foundation pipe repair in Southlake, TX. Expert diagnostics and non-invasive restoration. Call (877) 792-1410." />
+        <meta name="keywords" content="slab leak repair southlake tx, Southlake TX leak detection, foundation water leak, concrete slab repair, North Texas plumbing restoration" />
+        <link rel="canonical" href="https://slab-leak-repair-southlake-tx.com/" />
 
         {/* JSON-LD schema for LocalBusiness */}
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
-            "name": "Murrieta Slab Leak Pros",
-            "image": "https://images.unsplash.com/photo-1504148455328-497c596d229f?auto=format&fit=crop&q=80",
+            "name": "Southlake Slab Leak Pros",
+            "image": "https://images.unsplash.com/photo-1542013936693-884638332954?auto=format&fit=crop&q=80",
             "telephone": "+18777921410",
             "address": {
               "@type": "PostalAddress",
-              "streetAddress": "24630 Washington Ave",
-              "addressLocality": "Murrieta",
-              "addressRegion": "CA",
-              "postalCode": "92562",
+              "streetAddress": "1400 Main St",
+              "addressLocality": "Southlake",
+              "addressRegion": "TX",
+              "postalCode": "76092",
               "addressCountry": "US"
             },
             "geo": {
               "@type": "GeoCoordinates",
-              "latitude": "33.5539",
-              "longitude": "-117.2139"
+              "latitude": "32.9461",
+              "longitude": "-97.1350"
             },
             "openingHours": "Mo-Su 00:00-23:59",
             "serviceArea": {
               "@type": "Place",
-              "name": "Murrieta, California"
+              "name": "Southlake, Texas"
             },
             "priceRange": "$$$",
-            "description": "Expert electronic slab leak detection and foundation pipe repair services in Murrieta, CA. Specialized in non-invasive leak diagnostics and structural plumbing restoration."
+            "description": "Expert electronic slab leak detection and foundation pipe repair services in Southlake, TX. Specialized in residential leak diagnostics and structural plumbing restoration."
           })}
         </script>
 
@@ -56,19 +56,19 @@ const Index = () => {
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Service",
-            "serviceType": "Slab Leak Detection",
+            "serviceType": "Slab Leak Repair",
             "provider": {
               "@type": "LocalBusiness",
-              "name": "Murrieta Slab Leak Pros",
+              "name": "Southlake Slab Leak Pros",
               "telephone": "+18777921410"
             },
             "areaServed": {
               "@type": "Place",
-              "name": "Murrieta, CA"
+              "name": "Southlake, TX"
             },
             "hasOfferCatalog": {
               "@type": "OfferCatalog",
-              "name": "Murrieta Slab Leak Catalog",
+              "name": "Southlake Slab Leak Catalog",
               "itemListElement": [
                 {
                   "@type": "Offer",
@@ -81,14 +81,14 @@ const Index = () => {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "Acoustic Pipe Diagnostics"
+                    "name": "Thermal Imaging Diagnostic"
                   }
                 },
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "Non-Invasive Foundation Repair"
+                    "name": "Sub-Slab Foundation Repair"
                   }
                 }
               ]
@@ -97,11 +97,11 @@ const Index = () => {
         </script>
 
         {/* Open Graph Tags */}
-        <meta property="og:title" content="slab leak detection murrieta - Murrieta Slab Leak Pros" />
-        <meta property="og:description" content="Professional electronic slab leak detection and restoration in Murrieta, CA. Protect your property with advanced diagnostics and master-grade plumbing." />
+        <meta property="og:title" content="slab leak repair southlake tx - Southlake Slab Leak Pros" />
+        <meta property="og:description" content="Professional electronic slab leak detection and restoration in Southlake, TX. Protect your property with advanced diagnostics and master-grade plumbing." />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://slab-leak-detection-murrieta.com/" />
-        <meta property="og:image" content="https://images.unsplash.com/photo-1504148455328-497c596d229f?auto=format&fit=crop&q=80" />
+        <meta property="og:url" content="https://slab-leak-repair-southlake-tx.com/" />
+        <meta property="og:image" content="https://images.unsplash.com/photo-1542013936693-884638332954?auto=format&fit=crop&q=80" />
       </Helmet>
 
       <Header />
@@ -109,18 +109,18 @@ const Index = () => {
         <Hero
           title={
             <>
-              slab leak detection murrieta
-              <span className="block text-emerald-400 mt-2 text-2xl md:text-3xl italic">Murrieta Slab Leak Pros</span>
+              slab leak repair southlake tx
+              <span className="block text-emerald-400 mt-2 text-2xl md:text-3xl italic">Southlake Slab Leak Pros</span>
             </>
           }
-          subtitle="Murrieta's premier experts in master-grade electronic slab leak detection and foundation restoration. We design high-performance plumbing solutions tailored for Southern California's shifting soil conditions, ensuring long-term structural integrity. Engineering excellence for Riverside County."
-          image="https://images.unsplash.com/photo-1504148455328-497c596d229f?auto=format&fit=crop&q=80"
-          overlayImage="https://images.unsplash.com/photo-1581092160562-40aa08e78837?auto=format&fit=crop&q=80"
-          badge="MURRIETA SLAB LEAK RESTORATION SPECIALISTS"
+          subtitle="Southlake's premier experts in master-grade electronic slab leak detection and foundation restoration. We design high-performance plumbing solutions tailored for North Texas's shifting clay conditions, ensuring long-term structural integrity. Engineering excellence for Tarrant County."
+          image="https://storage.googleapis.com/test-media-u/u/f0f3930e-56e6-4277-bc6f-7ee3f9f7408d.png"
+          overlayImage="https://images.unsplash.com/photo-1621905251918-48416bd8575a?auto=format&fit=crop&q=80"
+          badge="SOUTHLAKE SLAB LEAK RESTORATION SPECIALISTS"
         />
         <Services />
         <WhyUs />
-        <MurrietaSlabLeakInfo />
+        <SouthlakeSlabLeakInfo />
         <FAQ />
         <Contact />
         <RandomLinks />
@@ -132,6 +132,7 @@ const Index = () => {
 };
 
 export default Index;
+
 
 
 

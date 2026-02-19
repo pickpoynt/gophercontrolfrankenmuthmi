@@ -7,20 +7,20 @@ import {
 
 const faqs = [
   {
-    question: "Do you offer emergency slab leak detection in Murrieta?",
-    answer: "Yes. Our Murrieta teams are available for technical foundation diagnostics and localized restoration. We provide rapid support across Riverside County and the Inland Empire to stabilize your property."
+    question: "Do you offer emergency slab leak detection in Southlake?",
+    answer: "Yes. Our Southlake teams are available for technical foundation diagnostics and localized restoration. We provide rapid support across Tarrant County and North Texas to stabilize your property."
   },
   {
-    question: "What are the signs of a slab leak in Murrieta homes?",
-    answer: "Common signs include unexplained increases in water bills, warm spots on flooring (especially under hardwood or tile), the sound of running water when faucets are off, and cracks in foundation walls."
+    question: "What are the signs of a slab leak in Southlake homes?",
+    answer: "Common signs include unexplained increases in water bills, warm spots on flooring (especially under tile or wood), the sound of running water when faucets are off, and cracks in foundation walls."
   },
   {
-    question: "Are your technicians licensed for California plumbing projects?",
-    answer: "Absolutely. Our technicians are fully licensed California C-36 Plumbing contractors and slab leak specialists who adhere strictly to California building codes and Murrieta municipal standards."
+    question: "Are your technicians licensed for Texas plumbing projects?",
+    answer: "Absolutely. Our technicians are fully licensed Texas State Master Plumbers and slab leak specialists who adhere strictly to Texas building codes and Southlake municipal standards."
   },
   {
-    question: "How long does a typical slab leak repair in Murrieta take?",
-    answer: "Most slab leak diagnostics and repairs can be completed in 1 to 2 days, depending on the orientation and depth of the pipe. We focus on non-invasive technical results to minimize disruption."
+    question: "How long does a typical slab leak repair in Southlake take?",
+    answer: "Most slab leak diagnostics and repairs can be completed in 1 to 2 days, depending on the complexity and location. We focus on non-invasive technical results to minimize disruption."
   }
 ];
 
@@ -31,10 +31,10 @@ const FAQ = () => {
         <div className="text-center mb-16 max-w-3xl mx-auto">
           <span className="text-indigo-600 font-bold tracking-widest uppercase text-sm">Common Questions</span>
           <h2 className="text-3xl md:text-5xl font-heading font-bold text-slate-900 mt-4 mb-6 uppercase tracking-tight">
-            Murrieta <span className="text-indigo-600">FAQ</span>
+            Southlake <span className="text-indigo-600">FAQ</span>
           </h2>
           <p className="text-xl text-slate-600 font-medium italic">
-            Answers to common questions about electronic slab leak detection and foundation restoration in Murrieta, California.
+            Answers to common questions about electronic slab leak detection and foundation restoration in Southlake, Texas.
           </p>
         </div>
 
@@ -44,12 +44,12 @@ const FAQ = () => {
               <AccordionItem
                 key={index}
                 value={`item-${index}`}
-                className="bg-white border border-slate-200 rounded-2xl px-6 shadow-sm hover:shadow-md transition-all duration-300"
+                className="bg-white border border-slate-200 rounded-2xl px-6"
               >
-                <AccordionTrigger className="text-lg font-bold text-slate-900 hover:text-indigo-600 text-left py-6 uppercase tracking-tight">
+                <AccordionTrigger className="text-left font-bold text-slate-900 hover:text-indigo-600 py-6 text-lg uppercase tracking-tight">
                   {faq.question}
                 </AccordionTrigger>
-                <AccordionContent className="text-slate-600 text-lg leading-relaxed pb-6">
+                <AccordionContent className="text-slate-600 pb-6 leading-relaxed font-medium italic">
                   {faq.answer}
                 </AccordionContent>
               </AccordionItem>
