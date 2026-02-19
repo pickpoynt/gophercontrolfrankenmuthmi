@@ -8,13 +8,13 @@ const Contact = () => {
         <div>
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-indigo-100 text-indigo-700 mb-6 font-bold uppercase tracking-wider text-sm shadow-sm">
             <Locate className="w-4 h-4" />
-            LAS VEGAS WATER SOFTENER PROS
+            ANOKA PLUMBING PROS
           </div>
           <h2 className="text-4xl md:text-5xl font-heading font-bold text-slate-900 mb-6 leading-tight uppercase tracking-tight">
-            Schedule <span className="text-indigo-600">NV Water Tuning</span>
+            Schedule <span className="text-indigo-600">MN Plumbing Pros</span>
           </h2>
           <p className="text-xl text-slate-600 mb-10 leading-relaxed font-medium italic">
-            Protect your Nevada property's plumbing. Our Las Vegas-based team provides technical, master-grade solutions for water softener repair and filtration restoration throughout Clark County.
+            Protect your Minnesota property's plumbing. Our Anoka-based team provides technical, master-grade solutions for emergency repairs and system maintenance throughout Anoka County.
           </p>
 
           <div className="space-y-8">
@@ -35,8 +35,8 @@ const Contact = () => {
                 <ShieldCheck className="w-7 h-7" />
               </div>
               <div>
-                <p className="text-sm font-bold text-indigo-600 uppercase tracking-widest mb-1">NV LICENSED</p>
-                <p className="text-xl font-bold text-slate-900 uppercase tracking-tight">Clark County Certified</p>
+                <p className="text-sm font-bold text-indigo-600 uppercase tracking-widest mb-1">MN LICENSED</p>
+                <p className="text-xl font-bold text-slate-900 uppercase tracking-tight">Anoka County Certified</p>
               </div>
             </div>
 
@@ -46,7 +46,7 @@ const Contact = () => {
               </div>
               <div>
                 <p className="text-sm font-bold text-indigo-600 uppercase tracking-widest mb-1">Service Area</p>
-                <p className="text-xl font-bold text-slate-900 uppercase tracking-tight">Las Vegas & Clark County</p>
+                <p className="text-xl font-bold text-slate-900 uppercase tracking-tight">Anoka & Surrounding Region</p>
               </div>
             </div>
           </div>
@@ -76,11 +76,11 @@ const Contact = () => {
             <div className="space-y-2">
               <label className="text-sm font-bold text-slate-700 uppercase tracking-wider ml-1">Service Required</label>
               <select className="w-full bg-slate-50 border-slate-200 rounded-xl h-14 px-6 focus:ring-2 focus:ring-indigo-500 transition-all outline-none font-medium">
-                <option>Water Softener Repair</option>
-                <option>Filter Replacement</option>
-                <option>System Maintenance</option>
-                <option>Water Quality Testing</option>
-                <option>Emergency Water Service</option>
+                <option>Emergency Plumbing</option>
+                <option>Drain Cleaning</option>
+                <option>Water Heater Repair</option>
+                <option>Video Pipe Inspection</option>
+                <option>Main Line Service</option>
               </select>
             </div>
             <div className="space-y-2">
@@ -88,14 +88,14 @@ const Contact = () => {
               <textarea
                 rows={4}
                 className="w-full bg-slate-50 border-slate-200 rounded-xl p-6 focus:ring-2 focus:ring-indigo-500 transition-all outline-none font-medium"
-                placeholder="Describe your hard water or system concerns..."
+                placeholder="Describe your plumbing concerns..."
               ></textarea>
             </div>
             <Button className="w-full bg-indigo-600 hover:bg-indigo-700 text-white h-16 rounded-xl text-lg font-bold shadow-lg shadow-indigo-900/20 uppercase tracking-widest transition-all">
               Get Technical Quote
             </Button>
             <p className="text-center text-slate-500 text-sm italic font-medium">
-              *24/7 Priority diagnostics for Las Vegas property emergencies
+              *24/7 Priority diagnostics for Anoka County property emergencies
             </p>
           </form>
         </div>

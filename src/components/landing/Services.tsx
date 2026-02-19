@@ -6,10 +6,10 @@ const Services = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16 max-w-3xl mx-auto">
           <h2 className="text-3xl md:text-5xl font-heading font-bold text-slate-900 mb-6 uppercase tracking-tight">
-            Comprehensive <span className="text-indigo-600">Softener Solutions</span>
+            Comprehensive <span className="text-indigo-600">Plumbing Excellence</span>
           </h2>
           <p className="text-xl text-slate-600 font-medium italic">
-            Las Vegas property owners trust us for master-grade water softener repair and precision system maintenance. We provide specialized care for Clark County.
+            Anoka property owners trust us for master-grade residential and commercial plumbing solutions. From historic pipe restoration to modern system upgrades.
           </p>
         </div>
 
@@ -17,26 +17,26 @@ const Services = () => {
           {[
             {
               icon: Zap,
-              title: "System Diagnostics",
-              description: "We utilize advanced testing tools to identify resin fouling or valve malfunctions with clinical accuracy, avoiding unnecessary system replacement in Vegas homes.",
+              title: "Emergency Repairs",
+              description: "24/7 rapid response for burst pipes, major leaks, and sewer backups. Our Anoka-based teams arrive fully equipped to stabilize and repair your system immediately.",
               link: "#contact"
             },
             {
               icon: Drill,
-              title: "Valve Restoration",
-              description: "Specialized residential valve repair that addresses pressure drops and cycle failures beneath the desert sun, preventing salt waste and water loss.",
+              title: "Drain Cleaning",
+              description: "Deep-clearing services utilizing hydro-jetting and motorized augers to remove stubborn obstructions and restore full flow to your home's drainage network.",
               link: "#contact"
             },
             {
               icon: Camera,
-              title: "Tank Maintenance",
-              description: "High-resolution system inspections designed to identify salt bridging and resin issues specifically under Nevada's extreme hard water conditions.",
+              title: "Video Inspection",
+              description: "High-definition sewer and drain line diagnostics allowing our technicians to pinpoint root intrusion or structural failures with millimeters of accuracy.",
               link: "#contact"
             },
             {
               icon: Waves,
-              title: "Filter Replacement",
-              description: "Technical carbon and sediment filter solutions that eliminate the Mojave's chlorine taste and mineral odors from your home's water supply.",
+              title: "Water Heaters",
+              description: "Expert installation and technical repair for tank-style and tankless water heating systems throughout the Anoka County region.",
               link: "#contact"
             }
           ].map((service, index) => (

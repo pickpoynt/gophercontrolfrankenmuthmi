@@ -10,10 +10,10 @@ const links = [
   { text: "water softener repair lafayette indiana", url: "/water-softener-repair-lafayette-indiana", internal: true },
   { text: "water softener repair logan utah", url: "/water-softener-repair-logan-utah", internal: true },
   { text: "water softener repair maple grove mn", url: "/water-softener-repair-maple-grove-mn", internal: true },
-  { text: "Dallas Slab Leak Support", url: "https://dallasplumber.vercel.app", internal: false },
-  { text: "San Antonio Foundation Experts", url: "https://sanantonioplumbing.vercel.app", internal: false },
-  { text: "San Francisco Diagnostic Pros", url: "https://plumbersanfranciscoca.vercel.app/", internal: false },
-  { text: "Charlotte Leak Detection Specialists", url: "https://plumbercharlottenc.vercel.app/", internal: false },
+  { text: "Dallas Plumbing Support", url: "https://dallasplumber.vercel.app", internal: false },
+  { text: "San Antonio Plumbing Experts", url: "https://sanantonioplumbing.vercel.app", internal: false },
+  { text: "San Francisco Plumbing Pros", url: "https://plumbersanfranciscoca.vercel.app/", internal: false },
+  { text: "Charlotte Plumbing Specialists", url: "https://plumbercharlottenc.vercel.app/", internal: false },
 ];
 
 const RandomLinks = () => {

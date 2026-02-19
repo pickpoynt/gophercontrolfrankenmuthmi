@@ -11,19 +11,19 @@ const Footer = () => {
                 <Locate className="w-7 h-7 text-blue-500" />
               </div>
               <div>
-                <span className="font-heading font-bold text-xl block leading-none tracking-tight text-white uppercase">Las Vegas Water Softener</span>
+                <span className="font-heading font-bold text-xl block leading-none tracking-tight text-white uppercase">Anoka Plumbing</span>
                 <span className="text-sm font-medium text-blue-500 uppercase tracking-widest text-[10px]">Pros</span>
               </div>
             </div>
             <p className="text-slate-400 mb-8 leading-relaxed font-medium italic">
-              Las Vegas's specialized water treatment diagnostic experts. We provide master-grade water softener repair and maintenance across Clark County.
+              Anoka's trusted residential and commercial plumbing experts. We provide master-grade emergency plumbing, drain cleaning, and pipe repair across Anoka County.
             </p>
           </div>
 
           <div>
             <h4 className="text-white font-bold mb-6 uppercase tracking-widest text-sm">Services</h4>
             <ul className="space-y-4">
-              {["Water Softener Repair", "Filter Replacement", "System Maintenance", "Water Quality Testing"].map((item) => (
+              {["Emergency Plumbing", "Drain Cleaning", "Water Heater Repair", "Sump Pump Service"].map((item) => (
                 <li key={item}>
                   <a href="#services" className="text-slate-400 hover:text-blue-500 transition-colors font-medium flex items-center gap-2 group">
                     <div className="w-1 h-1 rounded-full bg-blue-500/40 group-hover:w-2 transition-all" />
@@ -54,8 +54,8 @@ const Footer = () => {
               <div className="flex items-start gap-4">
                 <MapPin className="w-6 h-6 text-blue-500 shrink-0" />
                 <address className="text-slate-400 not-italic font-medium leading-relaxed">
-                  Las Vegas Blvd<br />
-                  Las Vegas, NV 89101
+                  Main St<br />
+                  Anoka, MN 55303
                 </address>
               </div>
               <div className="flex items-center gap-4">
@@ -70,7 +70,7 @@ const Footer = () => {
 
         <div className="pt-12 border-t border-slate-800 text-center">
           <p className="text-slate-500 text-sm font-medium italic">
-            © {new Date().getFullYear()} Las Vegas Water Softener Pros. All rights reserved. Clark County Water Treatment Authorities.
+            © {new Date().getFullYear()} Anoka Plumbing Pros. All rights reserved. Anoka County Master Plumbers.
           </p>
         </div>
       </div>
@@ -81,22 +81,22 @@ const Footer = () => {
         {JSON.stringify({
           "@context": "https://schema.org",
           "@type": "LocalBusiness",
-          "name": "Las Vegas Water Softener Pros",
+          "name": "Anoka Plumbing Pros",
           "address": {
             "@type": "PostalAddress",
-            "streetAddress": "Las Vegas Blvd",
-            "addressLocality": "Las Vegas",
-            "addressRegion": "NV",
-            "postalCode": "89101",
+            "streetAddress": "Main St",
+            "addressLocality": "Anoka",
+            "addressRegion": "MN",
+            "postalCode": "55303",
             "addressCountry": "US"
           },
           "geo": {
             "@type": "GeoCoordinates",
-            "latitude": "36.1699",
-            "longitude": "-115.1398"
+            "latitude": "45.1977",
+            "longitude": "-93.3872"
           },
           "telephone": "+18777921410",
-          "url": "https://water-softener-repair-las-vegas.com/"
+          "url": "https://plumber-anoka-mn.com/"
         })}
       </script>
     </footer>

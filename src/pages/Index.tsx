@@ -2,7 +2,7 @@ import Header from "@/components/landing/Header";
 import Hero from "@/components/landing/Hero";
 import Services from "@/components/landing/Services";
 import WhyUs from "@/components/landing/WhyUs";
-import LasVegasWaterSoftenerInfo from "@/components/landing/LasVegasWaterSoftenerInfo";
+import AnokaPlumbingInfo from "@/components/landing/AnokaPlumbingInfo";
 import FAQ from "@/components/landing/FAQ";
 import Contact from "@/components/landing/Contact";
 import Footer from "@/components/landing/Footer";
@@ -15,39 +15,39 @@ const Index = () => {
   return (
     <div className="min-h-screen">
       <Helmet>
-        <title>water softener repair las vegas | Las Vegas Water Softener Pros</title>
-        <meta name="description" content="water softener repair las vegas - Professional water softener repair, maintenance, and installation in Las Vegas, NV. Fix hard water issues, scale buildup, and system failures. Call (877) 792-1410." />
-        <meta name="keywords" content="water softener repair las vegas, Las Vegas water treatment, hard water repair NV, water softener maintenance, Clark County plumbing service" />
-        <link rel="canonical" href="https://water-softener-repair-las-vegas.com/" />
+        <title>plumber anoka mn | Anoka Plumbing Pros</title>
+        <meta name="description" content="plumber anoka mn - Professional plumbing services in Anoka, MN. Emergency repairs, drain cleaning, water heater installation & pipe repair. Call (877) 792-1410 today!" />
+        <meta name="keywords" content="plumber anoka mn, Anoka plumbing services, emergency plumber Anoka County, drain cleaning MN, water heater repair Anoka" />
+        <link rel="canonical" href="https://plumber-anoka-mn.com/" />
 
         {/* JSON-LD schema for LocalBusiness */}
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
-            "name": "Las Vegas Water Softener Pros",
-            "image": "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&q=80",
+            "name": "Anoka Plumbing Pros",
+            "image": "https://images.unsplash.com/photo-1504148455328-4362779fb452?auto=format&fit=crop&q=80",
             "telephone": "+18777921410",
             "address": {
               "@type": "PostalAddress",
-              "streetAddress": "Las Vegas Blvd",
-              "addressLocality": "Las Vegas",
-              "addressRegion": "NV",
-              "postalCode": "89101",
+              "streetAddress": "Main St",
+              "addressLocality": "Anoka",
+              "addressRegion": "MN",
+              "postalCode": "55303",
               "addressCountry": "US"
             },
             "geo": {
               "@type": "GeoCoordinates",
-              "latitude": "36.1699",
-              "longitude": "-115.1398"
+              "latitude": "45.1977",
+              "longitude": "-93.3872"
             },
             "openingHours": "Mo-Su 00:00-23:59",
             "serviceArea": {
               "@type": "Place",
-              "name": "Las Vegas, Nevada"
+              "name": "Anoka, Minnesota"
             },
             "priceRange": "$$",
-            "description": "Expert water softener repair and maintenance services in Las Vegas, NV. Specialized in resolving hard water problems, system salt bridging, and valve malfunctions."
+            "description": "Expert plumbing services in Anoka, MN. Specializing in emergency leak repair, drain cleaning, water heater service, and pipe replacement for Anoka County homes."
           })}
         </script>
 
@@ -56,39 +56,39 @@ const Index = () => {
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Service",
-            "serviceType": "Water Softener Repair",
+            "serviceType": "Plumbing Service",
             "provider": {
               "@type": "LocalBusiness",
-              "name": "Las Vegas Water Softener Pros",
+              "name": "Anoka Plumbing Pros",
               "telephone": "+18777921410"
             },
             "areaServed": {
               "@type": "Place",
-              "name": "Las Vegas, NV"
+              "name": "Anoka, MN"
             },
             "hasOfferCatalog": {
               "@type": "OfferCatalog",
-              "name": "Water Softener Service Catalog",
+              "name": "Plumbing Service Catalog",
               "itemListElement": [
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "System Diagnostic & Testing"
+                    "name": "Emergency Leak Repair"
                   }
                 },
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "Resin Tank Cleaning & Reconditioning"
+                    "name": "Drain Cleaning & Jetting"
                   }
                 },
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "Control Valve Repair & Replacement"
+                    "name": "Water Heater Installation"
                   }
                 }
               ]
@@ -97,11 +97,11 @@ const Index = () => {
         </script>
 
         {/* Open Graph Tags */}
-        <meta property="og:title" content="water softener repair las vegas - Las Vegas Water Softener Pros" />
-        <meta property="og:description" content="Professional water softener repair and maintenance in Las Vegas, NV. Protect your appliances from hard water damage with our expert services." />
+        <meta property="og:title" content="plumber anoka mn - Anoka Plumbing Pros" />
+        <meta property="og:description" content="Professional plumbing repair and maintenance in Anoka, MN. 24/7 emergency service available for Anoka County residents." />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://water-softener-repair-las-vegas.com/" />
-        <meta property="og:image" content="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&q=80" />
+        <meta property="og:url" content="https://plumber-anoka-mn.com/" />
+        <meta property="og:image" content="https://images.unsplash.com/photo-1504148455328-4362779fb452?auto=format&fit=crop&q=80" />
       </Helmet>
 
       <Header />
@@ -109,18 +109,18 @@ const Index = () => {
         <Hero
           title={
             <>
-              water softener repair las vegas
-              <span className="block text-emerald-400 mt-2 text-2xl md:text-3xl italic">Las Vegas Water Softener Pros</span>
+              plumber anoka mn
+              <span className="block text-indigo-400 mt-2 text-2xl md:text-3xl italic">Anoka Plumbing Pros</span>
             </>
           }
-          subtitle="Las Vegas's leading experts in high-performance water softening solutions. We combat the Mojave Desert's extreme hard water with advanced filtration and conditioning systems, extending the life of your plumbing and appliances. Quality water for the Silver State."
-          image="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&q=80"
-          overlayImage="https://images.unsplash.com/photo-1605330880126-24e5425646f9?auto=format&fit=crop&q=80"
-          badge="LAS VEGAS WATER TREATMENT SPECIALISTS"
+          subtitle="Anoka's leading experts in high-performance plumbing solutions. We protect your home from the confluence of the Rum and Mississippi Rivers with advanced drainage and piping systems. Quality plumbing for the Halloween Capital."
+          image="https://images.unsplash.com/photo-1504148455328-4362779fb452?auto=format&fit=crop&q=80"
+          overlayImage="https://images.unsplash.com/photo-1581094794329-c8112a89af12?auto=format&fit=crop&q=80"
+          badge="ANOKA COUNTY PLUMBING SPECIALISTS"
         />
         <Services />
         <WhyUs />
-        <LasVegasWaterSoftenerInfo />
+        <AnokaPlumbingInfo />
         <FAQ />
         <Contact />
         <RandomLinks />

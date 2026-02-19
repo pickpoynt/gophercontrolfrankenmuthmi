@@ -7,10 +7,10 @@ const FloatingCallButton = () => {
             <a
                 href="tel:8777921410"
                 className="group relative flex items-center justify-center bg-indigo-600 hover:bg-indigo-700 text-white w-16 h-16 rounded-full shadow-2xl transition-all duration-300 hover:scale-110 active:scale-95"
-                aria-label="Call Las Vegas Water Softener Pros"
+                aria-label="Call Anoka Plumbing Pros"
             >
                 {/* Glowing Background Pulse */}
-                <div className="absolute inset-0 rounded-full bg-indigo-500 animate-ping opacity-20 group-hover:opacity-40"></div>
+                <div className="absolute inset-0 rounded-full bg-indigo-50 animate-ping opacity-20 group-hover:opacity-40"></div>
 
                 {/* Icon Container */}
                 <div className="relative w-12 h-12 bg-white rounded-full flex items-center justify-center shadow-inner group-hover:rotate-12 transition-transform duration-300">
@@ -26,7 +26,7 @@ const FloatingCallButton = () => {
             {/* Status Indicator */}
             <div className="flex items-center gap-2 bg-white/90 backdrop-blur-sm px-4 py-1.5 rounded-full border border-slate-200 shadow-sm animate-pulse">
                 <div className="w-2 h-2 rounded-full bg-emerald-500 shadow-[0_0_8px_rgba(16,185,129,0.4)]"></div>
-                <span className="text-[10px] font-bold text-slate-600 uppercase tracking-tighter">Technicians On Call - Las Vegas</span>
+                <span className="text-[10px] font-bold text-slate-600 uppercase tracking-tighter">Technicians On Call - Anoka, MN</span>
             </div>
         </div>
     );

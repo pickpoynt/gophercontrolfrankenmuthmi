@@ -7,20 +7,20 @@ import {
 
 const faqs = [
   {
-    question: "Do you offer emergency water softener repair in Las Vegas?",
-    answer: "Yes. Our Las Vegas teams are available for daily diagnostics and rapid restoration. We provide system support across Clark County and the Mojave region to restore your home's water quality."
+    question: "Do you offer emergency plumbing repair in Anoka?",
+    answer: "Yes. Our Anoka teams are available 24/7 for diagnostics and rapid restoration. We provide system support across Anoka County to resolve leaks, backups, and failures immediately."
   },
   {
-    question: "What are the signs of a failing water softener in Vegas?",
-    answer: "Common signs include white scale buildup on faucets, spots on glassware, stiff laundry, and skin irritation. You may also notice a salt bridge in your brine tank or a drop in water pressure."
+    question: "What are the common plumbing issues in Anoka homes?",
+    answer: "Given Anoka's mix of historic and modern homes, common issues include root intrusion in main lines, frozen pipe repair during winter, and failing water heaters or sump pumps."
   },
   {
-    question: "Are your technicians licensed for Nevada water treatment?",
-    answer: "Absolutely. Our technicians are fully licensed Nevada water treatment specialists who understand the extreme mineral challenges of the Las Vegas Valley and adhere to all Clark County standards."
+    question: "Are your technicians licensed for Minnesota plumbing?",
+    answer: "Absolutely. Our technicians are fully licensed Minnesota Master Plumbers who understand the specific building codes and environmental challenges of the Anoka County region."
   },
   {
-    question: "How long does a typical softener repair take?",
-    answer: "Most system diagnostics and repairs can be completed within a few hours. We focus on technical results—whether it's valve restoration or resin cleaning—to minimize disruption to your home."
+    question: "How quickly can you respond to a leak?",
+    answer: "Most emergency diagnostics and repairs can be initiated within the hour. We focus on technical results—whether it's leak detection or pipe restoration—to protect your property from water damage."
   }
 ];
 
@@ -31,10 +31,10 @@ const FAQ = () => {
         <div className="text-center mb-16 max-w-3xl mx-auto">
           <span className="text-indigo-600 font-bold tracking-widest uppercase text-sm">Common Questions</span>
           <h2 className="text-3xl md:text-5xl font-heading font-bold text-slate-900 mt-4 mb-6 uppercase tracking-tight">
-            Las Vegas <span className="text-indigo-600">FAQ</span>
+            Anoka Plumbing <span className="text-indigo-600">FAQ</span>
           </h2>
           <p className="text-xl text-slate-600 font-medium italic">
-            Answers to common questions about water softener repair and maintenance in Las Vegas, Nevada.
+            Answers to common questions about residential and commercial plumbing services in Anoka, Minnesota.
           </p>
         </div>
 
