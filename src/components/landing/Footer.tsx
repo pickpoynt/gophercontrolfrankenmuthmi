@@ -11,12 +11,12 @@ const Footer = () => {
                 <Locate className="w-7 h-7 text-blue-500" />
               </div>
               <div>
-                <span className="font-heading font-bold text-xl block leading-none tracking-tight text-white uppercase">Denton Slab Leak</span>
+                <span className="font-heading font-bold text-xl block leading-none tracking-tight text-white uppercase">Murrieta Slab Leak</span>
                 <span className="text-sm font-medium text-blue-500 uppercase tracking-widest text-[10px]">Pros</span>
               </div>
             </div>
             <p className="text-slate-400 mb-8 leading-relaxed font-medium italic">
-              Denton's specialized slab leak diagnostic experts. We provide master-grade electronic leak detection and restoration across Denton County.
+              Murrieta's specialized slab leak diagnostic experts. We provide master-grade electronic leak detection and restoration across Riverside County.
             </p>
           </div>
 
@@ -54,8 +54,8 @@ const Footer = () => {
               <div className="flex items-start gap-4">
                 <MapPin className="w-6 h-6 text-blue-500 shrink-0" />
                 <address className="text-slate-400 not-italic font-medium leading-relaxed">
-                  215 E McKinney St<br />
-                  Denton, TX 76201
+                  24630 Washington Ave<br />
+                  Murrieta, CA 92562
                 </address>
               </div>
               <div className="flex items-center gap-4">
@@ -70,7 +70,7 @@ const Footer = () => {
 
         <div className="pt-12 border-t border-slate-800 text-center">
           <p className="text-slate-500 text-sm font-medium italic">
-            © {new Date().getFullYear()} Denton Slab Leak Pros. All rights reserved. Denton County Plumbing Authorities.
+            © {new Date().getFullYear()} Murrieta Slab Leak Pros. All rights reserved. Riverside County Plumbing Authorities.
           </p>
         </div>
       </div>
@@ -81,22 +81,22 @@ const Footer = () => {
         {JSON.stringify({
           "@context": "https://schema.org",
           "@type": "LocalBusiness",
-          "name": "Denton Slab Leak Pros",
+          "name": "Murrieta Slab Leak Pros",
           "address": {
             "@type": "PostalAddress",
-            "streetAddress": "215 E McKinney St",
-            "addressLocality": "Denton",
-            "addressRegion": "TX",
-            "postalCode": "76201",
+            "streetAddress": "24630 Washington Ave",
+            "addressLocality": "Murrieta",
+            "addressRegion": "CA",
+            "postalCode": "92562",
             "addressCountry": "US"
           },
           "geo": {
             "@type": "GeoCoordinates",
-            "latitude": "33.2148",
-            "longitude": "-97.1331"
+            "latitude": "33.5539",
+            "longitude": "-117.2139"
           },
           "telephone": "+18777921410",
-          "url": "https://slab-leak-repair-denton-tx.com/"
+          "url": "https://slab-leak-detection-murrieta.com/"
         })}
       </script>
     </footer>

@@ -1,9 +1,9 @@
 import { ShieldCheck, Droplets, Activity, ClipboardCheck, MapPin, Construction, Locate, Search, Clock, Zap, Target } from "lucide-react";
 
-const DentonSlabLeakInfo = () => {
+const MurrietaSlabLeakInfo = () => {
     return (
-        <section id="denton-slab-leak-info" className="py-24 bg-white relative overflow-hidden">
-            <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&q=80')] opacity-[0.03] bg-cover bg-center" />
+        <section id="murrieta-slab-leak-info" className="py-24 bg-white relative overflow-hidden">
+            <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1504148455328-497c596d229f?auto=format&fit=crop&q=80')] opacity-[0.03] bg-cover bg-center" />
 
             <div className="container mx-auto px-4 relative z-10">
                 <div className="max-w-6xl mx-auto">
@@ -11,13 +11,13 @@ const DentonSlabLeakInfo = () => {
                     <div className="text-center mb-16">
                         <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-blue-500/10 border border-blue-500/20 text-blue-600 mb-6 uppercase tracking-widest text-xs font-bold">
                             <Locate className="w-4 h-4" />
-                            <span>Denton County Slab Leak Specialists</span>
+                            <span>Riverside County Leak Detection Experts</span>
                         </div>
                         <h2 className="text-4xl md:text-5xl font-heading font-bold text-slate-900 mb-6 uppercase tracking-tight">
-                            Advanced <span className="text-blue-600">Slab Leak Repair</span> in Denton
+                            Advanced <span className="text-blue-600">Slab Leak Detection</span> in Murrieta
                         </h2>
                         <p className="text-xl text-slate-600 max-w-3xl mx-auto leading-relaxed italic font-medium">
-                            Preserving the foundations of Denton. Our local specialists provide master-grade electronic leak detection and non-invasive slab leak restoration for residential systems throughout North Texas.
+                            Protecting the structural foundations of Murrieta. Our local specialists utilize non-invasive electronic technology to triangulate sub-slab water breaches with scientific precision throughout the Temecula Valley.
                         </p>
                     </div>
 
@@ -28,7 +28,7 @@ const DentonSlabLeakInfo = () => {
                             <div>
                                 <h3 className="text-2xl font-bold text-slate-900 mb-6 uppercase tracking-tight flex items-center gap-3">
                                     <Construction className="w-7 h-7 text-blue-600" />
-                                    Denton Foundation Integrity
+                                    Temecula Valley Foundation Care
                                 </h3>
                                 <div className="space-y-4">
                                     <div className="flex items-start gap-4 p-4 bg-slate-50 rounded-xl border border-slate-100 hover:shadow-lg transition-all">
@@ -36,9 +36,9 @@ const DentonSlabLeakInfo = () => {
                                             <Target className="w-5 h-5 text-blue-600" />
                                         </div>
                                         <div>
-                                            <h4 className="font-bold text-slate-900 mb-1 uppercase text-sm tracking-wide">Electronic Sonic Detection</h4>
+                                            <h4 className="font-bold text-slate-900 mb-1 uppercase text-sm tracking-wide">Acoustic Sonic Location</h4>
                                             <p className="text-slate-600 text-sm leading-relaxed">
-                                                We utilize high-frequency acoustic equipment to triangulate the exact location of pressurized water leaks beneath your concrete slab without destructive testing.
+                                                We use ultra-sensitive microphones to pick up the high-frequency "hisss" of pressurized water escaping pipes beneath your concrete slab, allowing for surgical repair access.
                                             </p>
                                         </div>
                                     </div>
@@ -48,9 +48,9 @@ const DentonSlabLeakInfo = () => {
                                             <Activity className="w-5 h-5 text-blue-600" />
                                         </div>
                                         <div>
-                                            <h4 className="font-bold text-slate-900 mb-1 uppercase text-sm tracking-wide">Thermal Imaging Scans</h4>
+                                            <h4 className="font-bold text-slate-900 mb-1 uppercase text-sm tracking-wide">Electronic Gas Tracing</h4>
                                             <p className="text-slate-600 text-sm leading-relaxed">
-                                                Infrared technology allows us to "see" temperature variations caused by hot water leaks, providing a visual map of the breach through tile, hardwood, and concrete.
+                                                For difficult-to-hear leaks, we introduce a safe nitrogen-hydrogen tracer gas into the lines. Our sensors detect the rising gas molecules to find the exact point of the pipe break.
                                             </p>
                                         </div>
                                     </div>
@@ -60,9 +60,9 @@ const DentonSlabLeakInfo = () => {
                                             <Search className="w-5 h-5 text-blue-600" />
                                         </div>
                                         <div>
-                                            <h4 className="font-bold text-slate-900 mb-1 uppercase text-sm tracking-wide">Pipe Rerouting Experts</h4>
+                                            <h4 className="font-bold text-slate-900 mb-1 uppercase text-sm tracking-wide">Foundation Stress Analysis</h4>
                                             <p className="text-slate-600 text-sm leading-relaxed">
-                                                When traditional repair isn't viable, we design custom rerouting solutions that bypass the damaged section through walls or ceilings, permanently solving the slab leak issue.
+                                                A slab leak can cause soil erosion and foundation upheaval. We assess the surrounding structural impact to ensure your Murrieta home remains stable after the pipe is restored.
                                             </p>
                                         </div>
                                     </div>
@@ -75,21 +75,21 @@ const DentonSlabLeakInfo = () => {
                             <div>
                                 <h3 className="text-2xl font-bold text-slate-900 mb-6 uppercase tracking-tight flex items-center gap-3">
                                     <MapPin className="w-7 h-7 text-blue-600" />
-                                    Denton & North Texas Service Area
+                                    Murrieta & Riverside Service Area
                                 </h3>
-                                <p className="text-slate-600 mb-6 leading-relaxed">
-                                    Rapid response slab diagnostics across Denton and surrounding communities:
+                                <p className="text-slate-600 mb-6 leading-relaxed font-medium">
+                                    Rapid response electronic diagnostics across Murrieta and the surrounding Inland Empire:
                                 </p>
                                 <div className="grid grid-cols-2 gap-3">
                                     {[
-                                        "Corinth",
-                                        "Argyle",
-                                        "Sanger",
-                                        "Krum",
-                                        "Aubrey",
-                                        "Ponder",
-                                        "Cross Roads",
-                                        "Lake Dallas"
+                                        "Bear Creek",
+                                        "Greer Ranch",
+                                        "La Cresta",
+                                        "Copper Canyon",
+                                        "French Valley",
+                                        "Temecula",
+                                        "Wildomar",
+                                        "Menifee"
                                     ].map((area, index) => (
                                         <div key={index} className="flex items-center gap-2 p-3 bg-white rounded-lg border border-slate-100 shadow-sm">
                                             <div className="w-2 h-2 rounded-full bg-blue-500" />
@@ -98,49 +98,42 @@ const DentonSlabLeakInfo = () => {
                                     ))}
                                 </div>
                             </div>
-                        </div>
-                    </div>
 
-                    {/* Denton Clay Section - UNIQUE CONTENT */}
-                    <div className="mt-20 p-10 bg-blue-50 rounded-[3rem] border border-blue-100 relative overflow-hidden">
-                        <div className="absolute top-0 right-0 w-32 h-32 bg-blue-200/20 rounded-full -translate-y-16 translate-x-16" />
-                        <div className="relative z-10 flex flex-col md:flex-row gap-10 items-center">
-                            <div className="w-24 h-24 bg-white rounded-3xl shadow-xl flex items-center justify-center shrink-0 border border-blue-100">
-                                <Activity className="w-12 h-12 text-blue-600" />
-                            </div>
-                            <div>
-                                <h3 className="text-2xl font-bold text-slate-900 mb-4 uppercase tracking-tight">The Denton Clay Challenge</h3>
-                                <p className="text-slate-700 leading-relaxed font-medium italic">
-                                    Denton and North Texas are known for highly expansive clay soils. When these soils cycle between the intense Texas heat and sudden rainfall, the resulting foundation shifting often causes sub-slab plumbing lines to shear or crack. Our technicians are specifically trained to identify movement-induced pipeline stress and implement flexible restoration solutions that account for Denton's unique geological volatility.
+                            {/* UNIQUE GEOLOGICAL CONTENT */}
+                            <div className="p-8 bg-blue-600 rounded-3xl text-white shadow-xl relative overflow-hidden">
+                                <div className="absolute top-0 right-0 w-32 h-32 bg-white/10 rounded-full -translate-y-16 translate-x-16" />
+                                <h4 className="text-xl font-bold mb-4 uppercase tracking-tight">The Murrieta Soil Factor</h4>
+                                <p className="text-blue-50 text-sm leading-relaxed italic">
+                                    Murrieta's geological profile includes expansive clay soil that undergoes significant movement during California's seasonal shifts. This natural expansion and contraction creates immense pressure on concrete slabs and the pressurized water lines beneath them. Our team specializes in finding leaks caused by these specific geological stressors.
                                 </p>
                             </div>
                         </div>
                     </div>
 
                     {/* Technical Box */}
-                    <div className="bg-slate-900 rounded-3xl p-8 md:p-12 text-white shadow-2xl relative overflow-hidden mt-16">
+                    <div className="bg-slate-900 rounded-3xl p-8 md:p-12 text-white shadow-2xl relative overflow-hidden">
                         <div className="absolute top-0 right-0 w-64 h-64 bg-blue-600/10 rounded-full blur-3xl" />
                         <div className="grid md:grid-cols-2 gap-8 items-center relative z-10">
                             <div>
                                 <h3 className="text-3xl font-bold mb-4 uppercase tracking-tight flex items-center gap-3">
-                                    High Water Bill in Denton?
+                                    Unexplained Water Bill Bump?
                                 </h3>
                                 <p className="text-slate-400 leading-relaxed mb-6 italic">
-                                    If you notice warm spots on your floor or unexplained increases in your water bill, contact our Denton slab leak restoration team immediately for a technical diagnostic scan.
+                                    If you notice warm spots on your hardwood, wet carpets, or that your water meter is spinning when no water is running, your Murrieta property likely has a foundation leak.
                                 </p>
                                 <div className="flex flex-wrap gap-4">
-                                    <div className="px-4 py-2 rounded-lg bg-white/5 border border-white/10 text-xs font-bold uppercase tracking-widest">Leak Master Certified</div>
-                                    <div className="px-4 py-2 rounded-lg bg-white/5 border border-white/10 text-xs font-bold uppercase tracking-widest">Denton Local</div>
-                                    <div className="px-4 py-2 rounded-lg bg-white/5 border border-white/10 text-xs font-bold uppercase tracking-widest">Insurance Approved</div>
+                                    <div className="px-4 py-2 rounded-lg bg-white/5 border border-white/10 text-xs font-bold uppercase tracking-widest font-heading">Sub-Slab Certified</div>
+                                    <div className="px-4 py-2 rounded-lg bg-white/5 border border-white/10 text-xs font-bold uppercase tracking-widest font-heading">Murrieta Local</div>
+                                    <div className="px-4 py-2 rounded-lg bg-white/5 border border-white/10 text-xs font-bold uppercase tracking-widest font-heading">Acoustic Logic</div>
                                 </div>
                             </div>
-                            <div className="bg-blue-600 rounded-2xl p-8 text-center transform hover:scale-105 transition-transform">
-                                <p className="text-blue-100 text-sm font-bold uppercase tracking-widest mb-2">24/7 Priority Hotline</p>
-                                <a href="tel:8777921410" className="text-4xl font-bold transition-colors block mb-4">
+                            <div className="bg-blue-600 rounded-2xl p-8 text-center transform hover:scale-105 transition-transform border border-blue-400/30 shadow-2xl">
+                                <p className="text-blue-100 text-sm font-bold uppercase tracking-widest mb-2">24/7 Priority Diagnostics</p>
+                                <a href="tel:8777921410" className="text-4xl font-bold transition-colors block mb-4 hover:text-white">
                                     (877) 792-1410
                                 </a>
-                                <p className="text-blue-100 text-sm italic">
-                                    Precision Sub-Slab Diagnostics
+                                <p className="text-blue-100 text-sm italic font-medium">
+                                    Precision Foundation Restoration Murrieta
                                 </p>
                             </div>
                         </div>
@@ -151,4 +144,4 @@ const DentonSlabLeakInfo = () => {
     );
 };
 
-export default DentonSlabLeakInfo;
+export default MurrietaSlabLeakInfo;
