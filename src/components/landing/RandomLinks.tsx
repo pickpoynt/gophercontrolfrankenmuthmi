@@ -1,14 +1,14 @@
 import { ExternalLink } from "lucide-react";
 
 const links = [
-  { name: "Dallas Plumber", url: "https://dallasplumber.vercel.app" },
-  { name: "San Antonio Plumbing", url: "https://sanantonioplumbing.vercel.app" },
-  { name: "Plumber San Francisco CA", url: "https://plumbersanfranciscoca.vercel.app/" },
-  { name: "Plumber Charlotte NC", url: "https://plumbercharlottenc.vercel.app/" },
-  { name: "Plumber Tulsa OK", url: "https://plumbertulsaok.vercel.app/" },
-  { name: "Plumber West Seneca NY", url: "https://plumberwestsenecany.vercel.app/" },
-  { name: "Sewer Line Repair Lansing MI", url: "https://sewerlinerepairlansingmi.vercel.app/" },
-  { name: "Sewer Line Repair Fort Collins", url: "https://sewerlinerepairfortcollins.vercel.app/" }
+  { text: "Dallas Slab Leak Support", url: "https://dallasplumber.vercel.app" },
+  { text: "San Antonio Foundation Experts", url: "https://sanantonioplumbing.vercel.app" },
+  { text: "San Francisco Pipe Restoration", url: "https://plumbersanfranciscoca.vercel.app/" },
+  { text: "Charlotte Technical Plumbing", url: "https://plumbercharlottenc.vercel.app/" },
+  { text: "Tulsa Leak Detection Specialists", url: "https://plumbertulsaok.vercel.app/" },
+  { text: "West Seneca Plumbing Solutions", url: "https://plumberwestsenecany.vercel.app/" },
+  { text: "Lansing Main Line Restoration", url: "https://sewerlinerepairlansingmi.vercel.app/" },
+  { text: "Fort Collins Pipe Repair", url: "https://sewerlinerepairfortcollins.vercel.app/" }
 ];
 
 const RandomLinks = () => {
@@ -26,7 +26,7 @@ const RandomLinks = () => {
               href={link.url}
               className="group flex items-center gap-2 px-6 py-3 bg-white border border-slate-200 rounded-2xl text-slate-600 hover:text-blue-600 hover:border-blue-300 hover:shadow-lg hover:shadow-blue-500/10 transition-all duration-300"
             >
-              <span className="font-bold text-xs tracking-[0.1em] uppercase">{link.name}</span>
+              <span className="font-bold text-xs tracking-[0.1em] uppercase">{link.text}</span>
               <div className="w-5 h-5 rounded-full bg-slate-100 flex items-center justify-center group-hover:bg-blue-50 transition-colors">
                 <ExternalLink className="w-3 h-3 text-slate-400 group-hover:text-blue-600 transition-colors" />
               </div>

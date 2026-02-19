@@ -2,7 +2,7 @@ import Header from "@/components/landing/Header";
 import Hero from "@/components/landing/Hero";
 import Services from "@/components/landing/Services";
 import WhyUs from "@/components/landing/WhyUs";
-import PuyallupRepipingInfo from "@/components/landing/PuyallupRepipingInfo";
+import DentonSlabLeakInfo from "@/components/landing/DentonSlabLeakInfo";
 import FAQ from "@/components/landing/FAQ";
 import Contact from "@/components/landing/Contact";
 import Footer from "@/components/landing/Footer";
@@ -15,39 +15,39 @@ const Index = () => {
   return (
     <div className="min-h-screen">
       <Helmet>
-        <title>repiping services puyallup | Puyallup Repiping Pros</title>
-        <meta name="description" content="repiping services puyallup - professional whole-home repiping and copper/PEX installation in Puyallup, WA. Expert system restoration and diagnostic services. Call (877) 792-1410." />
-        <meta name="keywords" content="repiping services puyallup, Puyallup WA pipe replacement, copper repiping, PEX installation, Pierce County plumbing restoration" />
-        <link rel="canonical" href="https://repiping-services-puyallup.com/" />
+        <title>slab leak repair denton tx | Denton Slab Leak Pros</title>
+        <meta name="description" content="slab leak repair denton tx - Professional electronic slab leak detection and repair in Denton, TX. Expert foundation leak diagnostics and localized restoration. Call (877) 792-1410." />
+        <meta name="keywords" content="slab leak repair denton tx, Denton TX leak detection, foundation water leak, concrete slab repair, North Texas plumbing restoration" />
+        <link rel="canonical" href="https://slab-leak-repair-denton-tx.com/" />
 
         {/* JSON-LD schema for LocalBusiness */}
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
-            "name": "Puyallup Repiping Pros",
-            "image": "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&q=80",
+            "name": "Denton Slab Leak Pros",
+            "image": "https://images.unsplash.com/photo-1542013936693-884638332954?auto=format&fit=crop&q=80",
             "telephone": "+18777921410",
             "address": {
               "@type": "PostalAddress",
-              "streetAddress": "333 S Meridian",
-              "addressLocality": "Puyallup",
-              "addressRegion": "WA",
-              "postalCode": "98371",
+              "streetAddress": "215 E McKinney St",
+              "addressLocality": "Denton",
+              "addressRegion": "TX",
+              "postalCode": "76201",
               "addressCountry": "US"
             },
             "geo": {
               "@type": "GeoCoordinates",
-              "latitude": "47.1915",
-              "longitude": "-122.2932"
+              "latitude": "33.2148",
+              "longitude": "-97.1331"
             },
             "openingHours": "Mo-Su 00:00-23:59",
             "serviceArea": {
               "@type": "Place",
-              "name": "Puyallup, Washington"
+              "name": "Denton, Texas"
             },
             "priceRange": "$$$",
-            "description": "Expert whole-home repiping and Copper/PEX installation services in Puyallup, WA. Specialized in residential plumbing restoration and technical system upgrades."
+            "description": "Expert electronic slab leak detection and repair services in Denton, TX. Specialized in residential leak diagnostics and foundation pipe restoration."
           })}
         </script>
 
@@ -56,39 +56,39 @@ const Index = () => {
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Service",
-            "serviceType": "Repiping Services",
+            "serviceType": "Slab Leak Repair",
             "provider": {
               "@type": "LocalBusiness",
-              "name": "Puyallup Repiping Pros",
+              "name": "Denton Slab Leak Pros",
               "telephone": "+18777921410"
             },
             "areaServed": {
               "@type": "Place",
-              "name": "Puyallup, WA"
+              "name": "Denton, TX"
             },
             "hasOfferCatalog": {
               "@type": "OfferCatalog",
-              "name": "Puyallup Repiping Catalog",
+              "name": "Denton Slab Leak Catalog",
               "itemListElement": [
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "Whole-Home Copper Repiping"
+                    "name": "Electronic Leak Detection"
                   }
                 },
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "PEX Pipe Installation"
+                    "name": "Thermal Imaging Diagnostic"
                   }
                 },
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "Plumbing System Diagnostics"
+                    "name": "Sub-Slab Pipe Repair"
                   }
                 }
               ]
@@ -97,11 +97,11 @@ const Index = () => {
         </script>
 
         {/* Open Graph Tags */}
-        <meta property="og:title" content="repiping services puyallup - Puyallup Repiping Pros" />
-        <meta property="og:description" content="Professional whole-home repiping and system restoration in Puyallup, WA. Protect your property with master-grade copper and PEX installations." />
+        <meta property="og:title" content="slab leak repair denton tx - Denton Slab Leak Pros" />
+        <meta property="og:description" content="Professional electronic slab leak detection and restoration in Denton, TX. Protect your property with advanced diagnostics and master-grade plumbing." />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://repiping-services-puyallup.com/" />
-        <meta property="og:image" content="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&q=80" />
+        <meta property="og:url" content="https://slab-leak-repair-denton-tx.com/" />
+        <meta property="og:image" content="https://images.unsplash.com/photo-1542013936693-884638332954?auto=format&fit=crop&q=80" />
       </Helmet>
 
       <Header />
@@ -109,18 +109,18 @@ const Index = () => {
         <Hero
           title={
             <>
-              repiping services puyallup
-              <span className="block text-emerald-400 mt-2 text-2xl md:text-3xl italic">Puyallup Repiping Pros</span>
+              slab leak repair denton tx
+              <span className="block text-emerald-400 mt-2 text-2xl md:text-3xl italic">Denton Slab Leak Pros</span>
             </>
           }
-          subtitle="Puyallup's premier experts in master-grade whole-home repiping and pipe restoration. We design high-performance plumbing solutions tailored for the Pacific Northwest's specific water conditions, ensuring long-term structural integrity. Engineering excellence for Pierce County."
-          image="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&q=80"
-          overlayImage="https://images.unsplash.com/photo-1621905251918-48416bd8575a?auto=format&fit=crop&q=80"
-          badge="PUYALLUP PLUMBING RESTORATION SPECIALISTS"
+          subtitle="Denton's premier experts in master-grade electronic slab leak detection and repair. We design high-performance main line solutions tailored for Texas's shifting soil conditions, ensuring long-term structural integrity. Engineering excellence for Denton County."
+          image="https://images.unsplash.com/photo-1542013936693-884638332954?auto=format&fit=crop&q=80"
+          overlayImage="https://images.unsplash.com/photo-1518837695005-2083093ee35b?auto=format&fit=crop&q=80"
+          badge="DENTON SLAB LEAK RESTORATION SPECIALISTS"
         />
         <Services />
         <WhyUs />
-        <PuyallupRepipingInfo />
+        <DentonSlabLeakInfo />
         <FAQ />
         <Contact />
         <RandomLinks />
@@ -132,6 +132,7 @@ const Index = () => {
 };
 
 export default Index;
+
 
 
 

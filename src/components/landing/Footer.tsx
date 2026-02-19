@@ -11,19 +11,19 @@ const Footer = () => {
                 <Locate className="w-7 h-7 text-blue-500" />
               </div>
               <div>
-                <span className="font-heading font-bold text-xl block leading-none tracking-tight text-white uppercase">Puyallup Repiping</span>
+                <span className="font-heading font-bold text-xl block leading-none tracking-tight text-white uppercase">Denton Slab Leak</span>
                 <span className="text-sm font-medium text-blue-500 uppercase tracking-widest text-[10px]">Pros</span>
               </div>
             </div>
             <p className="text-slate-400 mb-8 leading-relaxed font-medium italic">
-              Puyallup's specialized plumbing restoration experts. We provide master-grade whole-home repiping and system restoration across Pierce County.
+              Denton's specialized slab leak diagnostic experts. We provide master-grade electronic leak detection and restoration across Denton County.
             </p>
           </div>
 
           <div>
             <h4 className="text-white font-bold mb-6 uppercase tracking-widest text-sm">Services</h4>
             <ul className="space-y-4">
-              {["Whole-Home Copper Repiping", "PEX Installation Services", "Plumbing System Mapping", "Technical Leak Detection"].map((item) => (
+              {["Electronic Leak Detection", "Thermal Imaging Scans", "Sub-Slab Pipe Repair", "Foundation Plumbing Restoration"].map((item) => (
                 <li key={item}>
                   <a href="#services" className="text-slate-400 hover:text-blue-500 transition-colors font-medium flex items-center gap-2 group">
                     <div className="w-1 h-1 rounded-full bg-blue-500/40 group-hover:w-2 transition-all" />
@@ -54,8 +54,8 @@ const Footer = () => {
               <div className="flex items-start gap-4">
                 <MapPin className="w-6 h-6 text-blue-500 shrink-0" />
                 <address className="text-slate-400 not-italic font-medium leading-relaxed">
-                  333 S Meridian<br />
-                  Puyallup, WA 98371
+                  215 E McKinney St<br />
+                  Denton, TX 76201
                 </address>
               </div>
               <div className="flex items-center gap-4">
@@ -70,7 +70,7 @@ const Footer = () => {
 
         <div className="pt-12 border-t border-slate-800 text-center">
           <p className="text-slate-500 text-sm font-medium italic">
-            © {new Date().getFullYear()} Puyallup Repiping Pros. All rights reserved. Pierce County Plumbing Authorities.
+            © {new Date().getFullYear()} Denton Slab Leak Pros. All rights reserved. Denton County Plumbing Authorities.
           </p>
         </div>
       </div>
@@ -81,22 +81,22 @@ const Footer = () => {
         {JSON.stringify({
           "@context": "https://schema.org",
           "@type": "LocalBusiness",
-          "name": "Puyallup Repiping Pros",
+          "name": "Denton Slab Leak Pros",
           "address": {
             "@type": "PostalAddress",
-            "streetAddress": "333 S Meridian",
-            "addressLocality": "Puyallup",
-            "addressRegion": "WA",
-            "postalCode": "98371",
+            "streetAddress": "215 E McKinney St",
+            "addressLocality": "Denton",
+            "addressRegion": "TX",
+            "postalCode": "76201",
             "addressCountry": "US"
           },
           "geo": {
             "@type": "GeoCoordinates",
-            "latitude": "47.1915",
-            "longitude": "-122.2932"
+            "latitude": "33.2148",
+            "longitude": "-97.1331"
           },
           "telephone": "+18777921410",
-          "url": "https://repiping-services-puyallup.com/"
+          "url": "https://slab-leak-repair-denton-tx.com/"
         })}
       </script>
     </footer>

@@ -1,75 +1,87 @@
-import { ShieldCheck, Calendar, MapPin, DollarSign, Phone } from "lucide-react";
+import { ShieldCheck, MapPin, Phone, Target, Clock } from "lucide-react";
+import { Button } from "@/components/ui/button"; // Assuming Button is a local component
 
 const WhyUs = () => {
   return (
-    <section id="why-us" className="py-24 bg-slate-900 text-white relative overflow-hidden">
-      <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-transparent via-gold-500 to-transparent opacity-50" />
-
-      {/* Background Texture */}
-      <div className="absolute inset-0 opacity-5 bg-[url('https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&q=80')] mix-blend-overlay pointer-events-none"></div>
+    <section id="why-us" className="py-24 relative overflow-hidden">
+      {/* Dynamic Background with Technical Texture */}
+      <div className="absolute inset-0 z-0">
+        <img
+          src="https://images.unsplash.com/photo-1542013936693-884638332954?auto=format&fit=crop&q=80"
+          alt=""
+          className="w-full h-full object-cover opacity-5 brightness-[0.2]"
+        />
+        <div className="absolute inset-0 bg-gradient-to-br from-indigo-900 via-slate-900 to-indigo-950 opacity-95" />
+      </div>
 
       <div className="container mx-auto px-4 relative z-10">
-        <div className="max-w-3xl mb-16 mx-auto text-center">
-          <h2 className="text-3xl md:text-5xl font-heading font-bold mb-6 uppercase tracking-tight">
-            Why Puyallup Trusts Our <span className="text-indigo-400">Repiping Experts</span>
-          </h2>
-          <p className="text-xl text-slate-400 leading-relaxed font-medium italic">
-            Protecting Pierce County homes with master-grade pipe engineering. We specialize in advanced whole-home repiping and rapid local support for Puyallup property owners.
-          </p>
-        </div>
-
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-          {[
-            {
-              icon: ShieldCheck,
-              title: "Lifetime Durability",
-              description: "We utilize advanced L-type copper and Uponor PEX-A to ensure your new plumbing system lasts for decades under Washington's water conditions."
-            },
-            {
-              icon: MapPin,
-              title: "Puyallup Local",
-              description: "Our teams are based in Pierce County, meaning rapid response times when pipe failures or water pressure issues occur in the Puyallup area."
-            },
-            {
-              icon: Calendar,
-              title: "Rapid Completion",
-              description: "Modern staging and installation technologies that eliminate long-term disruption, often completing full house repiping in days, not weeks."
-            },
-            {
-              icon: DollarSign,
-              title: "Transparent Value",
-              description: "Honest, detailed technical assessments. We provide clear scopes and upfront pricing for any necessary whole-home repiping projects."
-            }
-          ].map((feature, index) => (
-            <div
-              key={index}
-              className="p-8 rounded-[2rem] bg-slate-800/50 border border-slate-700 hover:border-indigo-500/50 transition-all duration-300 group hover:-translate-y-2"
-            >
-              <div className="w-14 h-14 rounded-2xl bg-indigo-600/10 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
-                <feature.icon className="w-7 h-7 text-indigo-500" />
-              </div>
-              <h3 className="text-xl font-bold mb-3 text-white uppercase tracking-tight">{feature.title}</h3>
-              <p className="text-slate-400 leading-relaxed font-medium">
-                {feature.description}
-              </p>
-            </div>
-          ))}
-        </div>
-
-        <div className="mt-20 p-10 rounded-[3rem] bg-gradient-to-br from-indigo-600 to-indigo-800 flex flex-col md:flex-row items-center justify-between gap-8 shadow-2xl shadow-indigo-900/40 transform hover:scale-[1.02] transition-transform duration-500">
-          <div className="max-w-xl">
-            <h3 className="text-3xl font-bold text-white mb-4 uppercase tracking-tight">Plumbing Crisis?</h3>
-            <p className="text-blue-50 text-lg font-medium opacity-90">
-              Don't wait for property damage. Our Puyallup specialist team is ready to restore your systems 24/7.
+        <div className="grid lg:grid-cols-2 gap-16 items-center">
+          <div>
+            <span className="text-indigo-400 font-bold tracking-widest uppercase text-sm mb-4 block">Unmatched Precision</span>
+            <h2 className="text-3xl md:text-5xl font-heading font-bold text-white mb-8 leading-tight uppercase tracking-tight">
+              Why Denton Trusts <br />
+              <span className="text-indigo-500">Our Leak Experts</span>
+            </h2>
+            <p className="text-xl text-slate-300 mb-10 leading-relaxed font-light italic">
+              We bring master-grade engineering to every diagnostic bridge. Our team is dedicated to preserving Denton property value through technical excellence and non-invasive sub-slab restoration.
             </p>
+
+            <div className="grid gap-6">
+              {[
+                {
+                  title: "Clinical Accuracy",
+                  description: "Our electronic triangulation equipment identified leaks with +/- 6 inch precision, preventing unnecessary slab destruction.",
+                  icon: Target
+                },
+                {
+                  title: "Denton Local",
+                  description: "Based in the heart of Denton, TX. We understand the specific soil shifting patterns that cause North Texas slab failures.",
+                  icon: MapPin
+                },
+                {
+                  title: "Rapid Detection",
+                  description: "Emergency diagnostic teams deployed immediately across Denton County to stabilize critical foundation water breaches.",
+                  icon: Clock
+                },
+                {
+                  title: "Technical Valve",
+                  description: "Master-level plumbing certification in Texas, ensuring all repairs meet the highest structural and municipal standards.",
+                  icon: ShieldCheck
+                }
+              ].map((item, index) => (
+                <div key={index} className="flex gap-6 p-6 rounded-2xl bg-white/5 border border-white/10 hover:bg-white/10 transition-all group">
+                  <div className="w-14 h-14 rounded-xl bg-indigo-500/20 flex items-center justify-center shrink-0 group-hover:bg-indigo-500 group-hover:scale-110 transition-all">
+                    <item.icon className="w-7 h-7 text-indigo-400 group-hover:text-white" />
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-bold text-white mb-2 uppercase tracking-wide">{item.title}</h3>
+                    <p className="text-slate-400 leading-relaxed text-sm font-medium">{item.description}</p>
+                  </div>
+                </div>
+              ))}
+            </div>
           </div>
-          <a
-            href="tel:8777921410"
-            className="px-10 py-5 bg-white text-indigo-600 rounded-2xl text-xl font-bold hover:bg-slate-50 transition-colors shadow-lg shadow-black/10 flex items-center gap-3 whitespace-nowrap animate-pulse"
-          >
-            <Phone className="w-6 h-6" />
-            (877) 792-1410
-          </a>
+
+          <div className="relative">
+            <div className="aspect-square rounded-[3rem] overflow-hidden border-4 border-indigo-500/20 shadow-2xl shadow-indigo-500/20 relative group">
+              <img
+                src="https://images.unsplash.com/photo-1542013936693-884638332954?auto=format&fit=crop&q=80"
+                alt="Denton Electronic Leak Detection"
+                className="w-full h-full object-cover grayscale brightness-75 group-hover:grayscale-0 group-hover:scale-105 transition-all duration-700"
+              />
+              <div className="absolute inset-0 bg-indigo-900/40 mix-blend-overlay group-hover:bg-transparent transition-all" />
+
+              <div className="absolute bottom-8 left-8 right-8 bg-slate-900/90 backdrop-blur-xl p-8 rounded-3xl border border-white/10">
+                <p className="text-indigo-400 font-bold uppercase tracking-widest text-xs mb-3">Foundation Crisis?</p>
+                <h4 className="text-2xl font-bold text-white mb-4 uppercase tracking-tight leading-tight">Emergency Slab Scans</h4>
+                <div className="flex items-center gap-4">
+                  <Button className="bg-indigo-600 hover:bg-indigo-700 text-white font-bold h-12 px-6 rounded-xl uppercase tracking-widest text-xs" asChild>
+                    <a href="tel:8777921410">Call Denton Team</a>
+                  </Button>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>

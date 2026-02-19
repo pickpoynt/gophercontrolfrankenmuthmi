@@ -6,10 +6,10 @@ const Services = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16 max-w-3xl mx-auto">
           <h2 className="text-3xl md:text-5xl font-heading font-bold text-slate-900 mb-6 uppercase tracking-tight">
-            Comprehensive <span className="text-indigo-600">Repiping Solutions</span>
+            Comprehensive <span className="text-indigo-600">Slab Leak Solutions</span>
           </h2>
           <p className="text-xl text-slate-600 font-medium italic">
-            Puyallup property owners trust us for master-grade whole-home repiping and precision system restoration. We provide specialized care for Pierce County.
+            Denton property owners trust us for master-grade electronic leak detection and precision foundation restoration. We provide specialized care for Denton County.
           </p>
         </div>
 
@@ -17,26 +17,26 @@ const Services = () => {
           {[
             {
               icon: Zap,
-              title: "Copper Repiping",
-              description: "We utilize premium L-type copper to restore your home's water distribution, ensuring maximum pressure and lifetime reliability in Puyallup.",
+              title: "Electronic Detection",
+              description: "We utilize advanced frequency triangulation to identify sub-slab water breaches with clinical accuracy, avoiding unnecessary excavation in Denton homes.",
               link: "#contact"
             },
             {
               icon: Drill,
-              title: "PEX-A Installation",
-              description: "Specialized residential PEX-A restoration that provides a flexible, freeze-resistant alternative for modern Washington home plumbing.",
+              title: "Sub-Slab Repair",
+              description: "Specialized residential pipe restoration that addresses pressurized leaks beneath concrete foundations, preventing structural erosion and sinkholes.",
               link: "#contact"
             },
             {
               icon: Camera,
-              title: "System Diagnostics",
-              description: "Technical plumbing mapping designed to identify pipe degradation and structural compromises specifically in the Pacific Northwest area.",
+              title: "Thermal Scanning",
+              description: "High-resolution infrared diagnostics designed to identify hot water line breaks specifically under North Texas's unique geological conditions.",
               link: "#contact"
             },
             {
               icon: Waves,
-              title: "Technical Mapping",
-              description: "High-precision layout engineering to ensure your new repiping system is optimized for flow and efficiency throughout your property.",
+              title: "Non-Invasive Fixes",
+              description: "Technical pipe rerouting and epoxy lining solutions that eliminate the need to cut through your finished flooring and concrete slab.",
               link: "#contact"
             }
           ].map((service, index) => (
