@@ -1,8 +1,8 @@
 import { ShieldCheck, Droplets, Activity, ClipboardCheck, MapPin, Locate, Search, Zap, AlertTriangle, Bug, Thermometer, Wind } from "lucide-react";
 
-const SouthPointPestControlInfo = () => {
+const CorvallisRodentControlInfo = () => {
     return (
-        <section id="south-point-pest-control-info" className="py-24 bg-white relative overflow-hidden">
+        <section id="corvallis-rodent-control-info" className="py-24 bg-white relative overflow-hidden">
             <div className="absolute inset-0 bg-[url('/1.jpeg')] opacity-[0.03] bg-cover bg-center" />
 
             <div className="container mx-auto px-4 relative z-10">
@@ -11,13 +11,13 @@ const SouthPointPestControlInfo = () => {
                     <div className="text-center mb-16">
                         <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-indigo-500/10 border border-indigo-500/20 text-indigo-600 mb-6 uppercase tracking-widest text-xs font-bold">
                             <Locate className="w-4 h-4" />
-                            <span>Lawrence County Ohio Pest Control Elite</span>
+                            <span>Benton County Oregon Rodent Control Elite</span>
                         </div>
                         <h2 className="text-3xl md:text-5xl font-heading font-bold text-slate-900 mb-6 uppercase tracking-tight">
-                            Expert <span className="text-indigo-600">pest control south point ohio</span>
+                            Expert <span className="text-indigo-600">rodent control corvallis oregon</span>
                         </h2>
                         <p className="text-xl text-slate-600 max-w-3xl mx-auto leading-relaxed italic font-medium">
-                            Precision pest control for South Point, OH homes and businesses. We deploy targeted perimeter defense, indoor crack-and-crevice treatment, and comprehensive property exclusion to stop pest invasions permanently across Lawrence County.
+                            Precision rodent elimination for Corvallis, OR homes and businesses. We deploy targeted interior trapping, heavy-duty structural exclusion, and full-attic decontamination to stop rat and mouse invasions permanently across Benton County.
                         </p>
                     </div>
 
@@ -27,7 +27,7 @@ const SouthPointPestControlInfo = () => {
                             <div>
                                 <h3 className="text-2xl font-bold text-slate-900 mb-6 uppercase tracking-tight flex items-center gap-3">
                                     <AlertTriangle className="w-7 h-7 text-rose-500" />
-                                    South Point Pest Control Protocol
+                                    The Corvallis Rodent Threat
                                 </h3>
                                 <div className="space-y-4">
                                     <div className="flex items-start gap-4 p-4 bg-slate-50 rounded-xl border border-slate-100 hover:shadow-lg transition-all">
@@ -35,9 +35,9 @@ const SouthPointPestControlInfo = () => {
                                             <Search className="w-5 h-5 text-indigo-600" />
                                         </div>
                                         <div>
-                                            <h4 className="font-bold text-slate-900 mb-1 uppercase text-sm tracking-wide">Full Property Assessment</h4>
+                                            <h4 className="font-bold text-slate-900 mb-1 uppercase text-sm tracking-wide">Deer Mouse & Norway Rat Invasions</h4>
                                             <p className="text-slate-600 text-sm leading-relaxed">
-                                                South Point's older housing stock, river-valley topography, and dense tree lines create multiple pest entry points. Our pest control south point ohio specialists assess every crack, gap, crawl space, attic vent, and utility penetration before treatment begins — no harborage zone left unchecked.
+                                                Corvallis's lush landscape and agricultural borders make it a prime target for Deer Mice and Norway Rats. These rodents carry Leer and Hantavirus, posing direct health risks. Our rodent control corvallis oregon specialists identify the specific species invading your structure to deploy the most effective elimination protocol.
                                             </p>
                                         </div>
                                     </div>
@@ -47,9 +47,9 @@ const SouthPointPestControlInfo = () => {
                                             <ShieldCheck className="w-5 h-5 text-indigo-600" />
                                         </div>
                                         <div>
-                                            <h4 className="font-bold text-slate-900 mb-1 uppercase text-sm tracking-wide">Perimeter Residual Barrier</h4>
+                                            <h4 className="font-bold text-slate-900 mb-1 uppercase text-sm tracking-wide">Total Structure Exclusion</h4>
                                             <p className="text-slate-600 text-sm leading-relaxed">
-                                                We apply a professional-grade residual insecticide barrier around your home's full perimeter — foundation base, door frames, window wells, and garage entries — creating an invisible defense that stops ants, roaches, spiders, and other crawling pests before they enter.
+                                                We don't just set traps; we seal your home. Using industrial-grade steel mesh, structural sealants, and hardware cloth, we block every entry point in foundation vents, roof lines, and crawl space portals. If they can't get in, they can't infest — providing you with a permanent solution.
                                             </p>
                                         </div>
                                     </div>
@@ -59,9 +59,9 @@ const SouthPointPestControlInfo = () => {
                                             <Droplets className="w-5 h-5 text-indigo-600" />
                                         </div>
                                         <div>
-                                            <h4 className="font-bold text-slate-900 mb-1 uppercase text-sm tracking-wide">Moisture & Entry Point Correction</h4>
+                                            <h4 className="font-bold text-slate-900 mb-1 uppercase text-sm tracking-wide">Benton County Moisture Defense</h4>
                                             <p className="text-slate-600 text-sm leading-relaxed">
-                                                South Point's humid Ohio River valley climate creates persistent moisture conditions that drive pests indoors. We treat and advise on drainage corrections, crawl space moisture barriers, and exclusion caulking to remove the conditions pests need to survive near your home year-round.
+                                                The humid Willamette Valley climate drives rodents toward dry nesting sites in attics and crawl spaces. We treat the infestation and address moisture conditions that attract rodents, including vapor barrier repair and attic sanitization to remove attractant pheromones.
                                             </p>
                                         </div>
                                     </div>
@@ -73,21 +73,21 @@ const SouthPointPestControlInfo = () => {
                             <div>
                                 <h3 className="text-2xl font-bold text-slate-900 mb-6 uppercase tracking-tight flex items-center gap-3">
                                     <MapPin className="w-7 h-7 text-indigo-600" />
-                                    Serving South Point & Lawrence County
+                                    Serving Corvallis & Benton County
                                 </h3>
                                 <p className="text-slate-600 mb-6 leading-relaxed font-medium">
-                                    Rapid pest control south point ohio service for these communities:
+                                    Rapid rodent control corvallis oregon service for these communities:
                                 </p>
                                 <div className="grid grid-cols-2 gap-3">
                                     {[
-                                        "South Point",
-                                        "Ironton",
-                                        "Chesapeake",
-                                        "Coal Grove",
-                                        "Proctorville",
-                                        "Huntington WV",
-                                        "Ashland KY",
-                                        "Gallia County"
+                                        "Corvallis",
+                                        "Philomath",
+                                        "Albany",
+                                        "Lebanon",
+                                        "Tangent",
+                                        "Adair Village",
+                                        "Monroe",
+                                        "Willamette Valley"
                                     ].map((area, index) => (
                                         <div key={index} className="flex items-center gap-2 p-3 bg-white rounded-lg border border-slate-100 shadow-sm">
                                             <div className="w-2 h-2 rounded-full bg-indigo-500" />
@@ -99,9 +99,9 @@ const SouthPointPestControlInfo = () => {
 
                             <div className="p-8 bg-indigo-600 rounded-3xl text-white shadow-xl relative overflow-hidden">
                                 <div className="absolute top-0 right-0 w-32 h-32 bg-white/10 rounded-full -translate-y-16 translate-x-16" />
-                                <h4 className="text-xl font-bold mb-4 uppercase tracking-tight">The South Point Pest Problem</h4>
+                                <h4 className="text-xl font-bold mb-4 uppercase tracking-tight">The Rainy Season Surge</h4>
                                 <p className="text-indigo-50 text-sm leading-relaxed italic">
-                                    South Point sits at the confluence of the Ohio River valley, Appalachian foothills, and Lawrence County's aging residential neighborhoods — a perfect storm for pest pressure. Springtime flooding drives rodents to higher ground inside homes. Summer heat brings ants, wasps, and cockroaches. Fall sends stink bugs and spiders indoors en masse. Our pest control south point ohio team knows these local cycles and deploys precisely timed treatments to break the pattern permanently.
+                                    In Corvallis, when the rains begin in October, rodent pressure on residential structures triples. Field mice and city rats seek the warmth and dryness of your attic, crawl space, and kitchen walls. Our rodent control corvallis oregon team is optimized for these seasonal surges, deploying aggressive exclusion and trapping strategies that stop infestations before they become established in your home's infrastructure.
                                 </p>
                             </div>
                         </div>
@@ -110,13 +110,13 @@ const SouthPointPestControlInfo = () => {
                     {/* Signs Section */}
                     <div className="bg-slate-50 rounded-3xl p-8 md:p-12 mb-12 border border-slate-200">
                         <h3 className="text-2xl font-bold text-slate-900 mb-6 uppercase tracking-tight text-center">
-                            Signs You Need <span className="text-indigo-600">Pest Control South Point Ohio</span>
+                            Signs You Need <span className="text-indigo-600">Rodent Control Corvallis Oregon</span>
                         </h3>
                         <div className="grid md:grid-cols-3 gap-6">
                             {[
-                                { icon: Bug, title: "Pests Indoors", desc: "Finding roaches, ants, or spiders inside your kitchen, bathroom, or basement is a clear sign of an active infestation requiring immediate professional pest control south point ohio treatment." },
-                                { icon: Droplets, title: "Droppings or Damage", desc: "Rodent droppings in cabinets, gnaw marks on wood or wiring, or shredded insulation in your attic or crawl space are urgent signs of a rodent colony that needs professional elimination." },
-                                { icon: Wind, title: "Seasonal Surges", desc: "Seeing large numbers of stink bugs, ladybugs, or box elder bugs entering through windows each fall is a sign your South Point home needs professional exclusion work before the next winter." }
+                                { icon: Bug, title: "Noises in Walls", desc: "Scratching, scuttling, or squeaking noises in your ceiling or walls, especially at night, are primary indicators of a rodent infestation requiring immediate rodent control corvallis oregon intervention." },
+                                { icon: Droplets, title: "Droppings Found", desc: "Small, dark, pellet-like droppings in pantry corners, under sinks, or in your attic are conclusive evidence of active mice or rats. Professional elimination is required to prevent population growth." },
+                                { icon: Wind, title: "Gnaw Marks", desc: "Finding gnaw marks on food packaging, wooden baseboards, or electrical wiring is a critical warning sign. Rodents must gnaw to maintain their teeth; our team identifies these marks to find nesting zones." }
                             ].map((item, i) => (
                                 <div key={i} className="bg-white rounded-2xl p-6 border border-slate-100 shadow-sm">
                                     <div className="w-12 h-12 rounded-xl bg-indigo-500/10 flex items-center justify-center mb-4">
@@ -129,10 +129,10 @@ const SouthPointPestControlInfo = () => {
                         </div>
                     </div>
 
-                    {/* South Point-Specific Unique Content */}
+                    {/* Corvallis-Specific Unique Content */}
                     <div className="bg-slate-50 rounded-3xl p-8 md:p-12 mb-12 border border-slate-200">
                         <h3 className="text-2xl font-bold text-slate-900 mb-8 uppercase tracking-tight text-center">
-                            Why South Point Pest Control Is <span className="text-indigo-600">Different</span>
+                            Why Corvallis Rodent Control Is <span className="text-indigo-600">Specialized</span>
                         </h3>
                         <div className="grid md:grid-cols-2 gap-8">
                             <div className="space-y-6">
@@ -141,8 +141,8 @@ const SouthPointPestControlInfo = () => {
                                         <Thermometer className="w-5 h-5 text-indigo-600" />
                                     </div>
                                     <div>
-                                        <h4 className="font-bold text-slate-900 mb-1 uppercase text-sm tracking-wide">River Valley Pest Pressure</h4>
-                                        <p className="text-slate-600 text-sm leading-relaxed">South Point's location along the Ohio River creates unique pest pressure. Seasonal flooding displaces rodents and insects from riverbanks directly toward residential properties. Standard pest control from general chain companies misses these locally specific patterns — our team doesn't.</p>
+                                        <h4 className="font-bold text-slate-900 mb-1 uppercase text-sm tracking-wide">Willamette Valley Humidity Control</h4>
+                                        <p className="text-slate-600 text-sm leading-relaxed">High humidity in Corvallis crawl spaces attracts rodents and promotes rapid nesting. Our rodent control corvallis oregon specialists address the environmental factors, not just the animals, ensuring your home is no longer a hospitable environment for pests.</p>
                                     </div>
                                 </div>
                                 <div className="flex items-start gap-4">
@@ -150,8 +150,8 @@ const SouthPointPestControlInfo = () => {
                                         <Zap className="w-5 h-5 text-indigo-600" />
                                     </div>
                                     <div>
-                                        <h4 className="font-bold text-slate-900 mb-1 uppercase text-sm tracking-wide">Older Home Vulnerabilities</h4>
-                                        <p className="text-slate-600 text-sm leading-relaxed">Many South Point homes were built decades ago with construction gaps, aging foundations, and crawl spaces that create dozens of pest entry points that modern homes don't have. Our pest control south point ohio specialists are trained specifically in older Appalachian-region home construction and its unique pest vulnerabilities.</p>
+                                        <h4 className="font-bold text-slate-900 mb-1 uppercase text-sm tracking-wide">Older Structure Vulnerabilities</h4>
+                                        <p className="text-slate-600 text-sm leading-relaxed">Corvallis's historic and older homes often have crawl space access and attic vents that have degraded over decades. We specialize in structural retrofitting for these older Benton County properties, installing permanent rodent-proof barriers that modern construction methods often lack.</p>
                                     </div>
                                 </div>
                             </div>
@@ -161,8 +161,8 @@ const SouthPointPestControlInfo = () => {
                                         <Activity className="w-5 h-5 text-indigo-600" />
                                     </div>
                                     <div>
-                                        <h4 className="font-bold text-slate-900 mb-1 uppercase text-sm tracking-wide">Tri-State Coverage</h4>
-                                        <p className="text-slate-600 text-sm leading-relaxed">South Point sits at the Ohio-Kentucky-West Virginia Tri-State border. Our pest control coverage extends across Lawrence County and into adjacent Cabell County WV and Boyd County KY — ensuring comprehensive protection no matter which side of the river your property is near.</p>
+                                        <h4 className="font-bold text-slate-900 mb-1 uppercase text-sm tracking-wide">Agri-Zone Pressure Management</h4>
+                                        <p className="text-slate-600 text-sm leading-relaxed">Properties on the edge of Corvallis face extreme rodent pressure from adjacent fields and orchards. We deploy 'Integrated Barrier Defense' strategies that create multiple layers of protection between the agricultural fields and your living space.</p>
                                     </div>
                                 </div>
                                 <div className="flex items-start gap-4">
@@ -170,8 +170,8 @@ const SouthPointPestControlInfo = () => {
                                         <ClipboardCheck className="w-5 h-5 text-indigo-600" />
                                     </div>
                                     <div>
-                                        <h4 className="font-bold text-slate-900 mb-1 uppercase text-sm tracking-wide">Ohio-Licensed & IPM Certified</h4>
-                                        <p className="text-slate-600 text-sm leading-relaxed">All our pest control south point ohio technicians carry active Ohio Department of Agriculture pest control licenses and follow IPM (Integrated Pest Management) methodology — ensuring the most effective, lowest-risk treatment protocols for your family, home, and pets.</p>
+                                        <h4 className="font-bold text-slate-900 mb-1 uppercase text-sm tracking-wide">Oregon Structural Licensed</h4>
+                                        <p className="text-slate-600 text-sm leading-relaxed">All our rodent control corvallis oregon technicians carry active Oregon Department of Agriculture structural pest licenses, ensuring that every treatment and exclusion we perform meets the highest legal and safety standards in the state.</p>
                                     </div>
                                 </div>
                             </div>
@@ -184,24 +184,24 @@ const SouthPointPestControlInfo = () => {
                         <div className="grid md:grid-cols-2 gap-8 items-center relative z-10">
                             <div>
                                 <h3 className="text-3xl font-bold mb-4 uppercase tracking-tight">
-                                    Pests Taking Over Your South Point Home?
+                                    Hearing Rodents in Your Ceiling?
                                 </h3>
                                 <p className="text-slate-400 leading-relaxed mb-6 italic font-medium">
-                                    Don't let a small pest problem become a full-scale infestation. Every week without treatment allows pest populations to multiply. Our pest control south point ohio team is stationed locally in Lawrence County for rapid same-day response anywhere across the Tri-State region.
+                                    Every night you wait allows rodent colonies to grow and further damage your insulation and wiring. Our rodent control corvallis oregon team is stationed locally for rapid same-day response anywhere in Benton County.
                                 </p>
                                 <div className="flex flex-wrap gap-4">
-                                    <div className="px-4 py-2 rounded-lg bg-white/5 border border-white/10 text-xs font-bold uppercase tracking-widest">OH State Licensed</div>
-                                    <div className="px-4 py-2 rounded-lg bg-white/5 border border-white/10 text-xs font-bold uppercase tracking-widest">IPM Certified</div>
+                                    <div className="px-4 py-2 rounded-lg bg-white/5 border border-white/10 text-xs font-bold uppercase tracking-widest">OR State Licensed</div>
+                                    <div className="px-4 py-2 rounded-lg bg-white/5 border border-white/10 text-xs font-bold uppercase tracking-widest">Exclusion Specialists</div>
                                     <div className="px-4 py-2 rounded-lg bg-white/5 border border-white/10 text-xs font-bold uppercase tracking-widest">Same-Day Service</div>
                                 </div>
                             </div>
                             <div className="bg-indigo-600 rounded-2xl p-8 text-center transform hover:scale-105 transition-transform border border-indigo-400/30 shadow-2xl">
-                                <p className="text-indigo-100 text-sm font-bold uppercase tracking-widest mb-2">Pest Control South Point Ohio</p>
+                                <p className="text-indigo-100 text-sm font-bold uppercase tracking-widest mb-2">Rodent Control Corvallis Oregon</p>
                                 <a href="tel:3238801224" className="text-4xl font-bold transition-colors block mb-4 hover:text-white">
                                     (323) 880-1224
                                 </a>
                                 <p className="text-indigo-100 text-sm italic font-medium">
-                                    pest control south point ohio
+                                    rodent control corvallis oregon
                                 </p>
                             </div>
                         </div>
@@ -212,4 +212,4 @@ const SouthPointPestControlInfo = () => {
     );
 };
 
-export default SouthPointPestControlInfo;
+export default CorvallisRodentControlInfo;

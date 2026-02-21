@@ -11,19 +11,19 @@ const Footer = () => {
                 <ShieldCheck className="w-7 h-7 text-indigo-500" />
               </div>
               <div>
-                <span className="font-heading font-bold text-xl block leading-none tracking-tight text-white uppercase">South Point Pest</span>
+                <span className="font-heading font-bold text-xl block leading-none tracking-tight text-white uppercase">Corvallis Rodent</span>
                 <span className="text-sm font-medium text-indigo-500 uppercase tracking-widest text-[10px]">Control Pros</span>
               </div>
             </div>
             <p className="text-slate-400 mb-8 leading-relaxed font-medium italic">
-              South Point Ohio's trusted pest control experts. We provide targeted pest elimination, perimeter barrier treatments, and full property protection across Lawrence County, OH and the Tri-State area.
+              Corvallis's trusted rodent control experts. We provide targeted rat and mouse elimination, exterior exclusion barriers, and full property decontamination across Benton County, OR and the Willamette Valley.
             </p>
           </div>
 
           <div>
             <h4 className="text-white font-bold mb-6 uppercase tracking-widest text-sm">Services</h4>
             <ul className="space-y-4">
-              {["Pest Inspection", "Perimeter Barrier Treatment", "Indoor Pest Elimination", "Rodent Control", "Preventive Exclusion"].map((item) => (
+              {["Rodent Inspection", "Entry Point Exclusion", "Mice & Rat Elimination", "Attic Decontamination", "Preventive Monitoring"].map((item) => (
                 <li key={item}>
                   <a href="#services" className="text-slate-400 hover:text-indigo-500 transition-colors font-medium flex items-center gap-2 group">
                     <div className="w-1 h-1 rounded-full bg-indigo-500/40 group-hover:w-2 transition-all" />
@@ -54,9 +54,9 @@ const Footer = () => {
               <div className="flex items-start gap-4">
                 <MapPin className="w-6 h-6 text-indigo-500 shrink-0" />
                 <address className="text-slate-400 not-italic font-medium leading-relaxed">
-                  South Point Pest Control Pros<br />
-                  301 Solida Rd<br />
-                  South Point, OH 45680
+                  Corvallis Rodent Control Pros<br />
+                  300 NW 2nd St<br />
+                  Corvallis, OR 97330
                 </address>
               </div>
               <div className="flex items-center gap-4">
@@ -71,7 +71,7 @@ const Footer = () => {
 
         <div className="pt-12 border-t border-slate-800 text-center">
           <p className="text-slate-500 text-sm font-medium italic">
-            © {new Date().getFullYear()} South Point Pest Control Pros. All rights reserved. Professional Pest Control South Point Ohio.
+            © {new Date().getFullYear()} Corvallis Rodent Control Pros. All rights reserved. Professional Rodent Control Corvallis Oregon.
           </p>
         </div>
       </div>

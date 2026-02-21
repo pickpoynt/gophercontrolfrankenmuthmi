@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { Locate, Phone, ShieldCheck, MapPin, Mail, DollarSign } from "lucide-react";
+import { Locate, Phone, ShieldCheck, MapPin, Mail } from "lucide-react";
 
 const Contact = () => {
   return (
@@ -8,13 +8,13 @@ const Contact = () => {
         <div>
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-indigo-100 text-indigo-700 mb-6 font-bold uppercase tracking-wider text-sm shadow-sm">
             <Locate className="w-4 h-4" />
-            SOUTH POINT PEST CONTROL PROS
+            CORVALLIS RODENT CONTROL PROS
           </div>
           <h2 className="text-4xl md:text-5xl font-heading font-bold text-slate-900 mb-6 leading-tight uppercase tracking-tight">
-            Deploy <span className="text-indigo-600">pest control south point ohio</span>
+            Stop <span className="text-indigo-600">rodent control corvallis oregon</span>
           </h2>
           <p className="text-xl text-slate-600 mb-10 leading-relaxed font-medium italic">
-            Protect your South Point, OH property from pest invasions. Our licensed pest control team provides same-day elimination, full perimeter barriers, and long-term prevention across Lawrence County, Ohio.
+            Protect your Corvallis, OR property from nesting rats and mice. Our licensed rodent control team provides same-day elimination, structural exclusion barriers, and complete sanitation across Benton County, Oregon.
           </p>
 
           <div className="space-y-8">
@@ -23,7 +23,7 @@ const Contact = () => {
                 <Phone className="w-7 h-7" />
               </div>
               <div>
-                <p className="text-sm font-bold text-indigo-600 uppercase tracking-widest mb-1">PEST CONTROL HOTLINE</p>
+                <p className="text-sm font-bold text-indigo-600 uppercase tracking-widest mb-1">RODENT HOTLINE</p>
                 <a href="tel:3238801224" className="text-2xl font-bold text-slate-900 hover:text-indigo-600 transition-colors uppercase tracking-tight">
                   (323) 880-1224
                 </a>
@@ -36,7 +36,7 @@ const Contact = () => {
               </div>
               <div>
                 <p className="text-sm font-bold text-indigo-600 uppercase tracking-widest mb-1">STATE LICENSED</p>
-                <p className="text-xl font-bold text-slate-900 uppercase tracking-tight">Ohio Licensed Pest Control Specialists</p>
+                <p className="text-xl font-bold text-slate-900 uppercase tracking-tight">Oregon Structural Pest Control Specialists</p>
               </div>
             </div>
 
@@ -46,13 +46,11 @@ const Contact = () => {
               </div>
               <div>
                 <p className="text-sm font-bold text-indigo-600 uppercase tracking-widest mb-1">NAP</p>
-                <p className="text-xl font-bold text-slate-900 uppercase tracking-tight">South Point Pest Control Pros</p>
-                <p className="text-slate-500 font-medium text-sm">301 Solida Rd, South Point, OH 45680</p>
+                <p className="text-xl font-bold text-slate-900 uppercase tracking-tight">Corvallis Rodent Control Pros</p>
+                <p className="text-slate-500 font-medium text-sm">300 NW 2nd St, Corvallis, OR 97330</p>
                 <p className="text-slate-500 font-medium text-sm">(323) 880-1224</p>
               </div>
             </div>
-
-
           </div>
         </div>
 
@@ -72,22 +70,22 @@ const Contact = () => {
             <div className="space-y-2">
               <label className="text-sm font-bold text-slate-700 uppercase tracking-wider ml-1">Service Needed</label>
               <select className="w-full bg-slate-50 border-slate-200 rounded-xl h-14 px-6 focus:ring-2 focus:ring-indigo-500 transition-all outline-none font-medium">
-                <option>Active Pest Infestation (Emergency)</option>
-                <option>Perimeter Barrier Treatment</option>
-                <option>Indoor Pest Elimination</option>
-                <option>Rodent Control</option>
-                <option>Preventive Exclusion Treatment</option>
+                <option>Active Rodent Sighting (Emergency)</option>
+                <option>Rodent Exclusion (Sealing Entry Points)</option>
+                <option>Attic/Crawl Cleanup & Sanitization</option>
+                <option>Commercial Rodent Management</option>
+                <option>Dead Rodent Removal & Odor Control</option>
               </select>
             </div>
             <div className="space-y-2">
               <label className="text-sm font-bold text-slate-700 uppercase tracking-wider ml-1">Situation Details</label>
-              <textarea rows={4} className="w-full bg-slate-50 border-slate-200 rounded-xl p-6 focus:ring-2 focus:ring-indigo-500 transition-all outline-none font-medium" placeholder="Describe what pests you're seeing and where in your home..."></textarea>
+              <textarea rows={4} className="w-full bg-slate-50 border-slate-200 rounded-xl p-6 focus:ring-2 focus:ring-indigo-500 transition-all outline-none font-medium" placeholder="Describe where you're seeing rodent activity or hearing noises..."></textarea>
             </div>
             <Button className="w-full bg-indigo-600 hover:bg-indigo-700 text-white h-16 rounded-xl text-lg font-bold shadow-lg shadow-indigo-900/20 uppercase tracking-widest transition-all">
               Request Same-Day Service
             </Button>
             <p className="text-center text-slate-500 text-sm italic font-medium">
-              *Same-day service available across South Point, Ironton, Chesapeake & Lawrence County
+              *Same-day service available across Corvallis, Philomath, Albany & Benton County
             </p>
           </form>
         </div>

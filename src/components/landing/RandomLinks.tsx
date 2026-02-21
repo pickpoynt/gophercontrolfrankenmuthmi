@@ -1,8 +1,8 @@
 const links = [
   { text: "Earwig Exterminator Denver", url: "https://earwigexterminatordenver.vercel.app/" },
-  { text: "Denver Earwig Control Specialists", url: "https://earwigexterminatordenver.vercel.app/" },
-  { text: "Earwig Removal & Pest Control Denver CO", url: "https://earwigexterminatordenver.vercel.app/" },
-  { text: "Professional Earwig Exterminator Denver", url: "https://earwigexterminatordenver.vercel.app/" },
+  { text: "Centipede Repellent Hawaii", url: "https://centipederepellenthawaii.vercel.app/" },
+  { text: "Pest Control South Point Ohio", url: "https://pestcontrolsouthpointohio.vercel.app/" },
+  { text: "South Point Ohio Pest Control Pros", url: "https://pestcontrolsouthpointohio.vercel.app/" },
 ];
 
 const RandomLinks = () => {

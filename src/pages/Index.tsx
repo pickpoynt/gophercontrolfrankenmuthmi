@@ -2,7 +2,7 @@ import Header from "@/components/landing/Header";
 import Hero from "@/components/landing/Hero";
 import Services from "@/components/landing/Services";
 import WhyUs from "@/components/landing/WhyUs";
-import SouthPointPestControlInfo from "@/components/landing/SouthPointPestControlInfo";
+import CorvallisRodentControlInfo from "@/components/landing/CorvallisRodentControlInfo";
 import Contact from "@/components/landing/Contact";
 import FAQ from "@/components/landing/FAQ";
 import Footer from "@/components/landing/Footer";
@@ -14,32 +14,32 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-slate-50">
       <Helmet>
-        <title>pest control south point ohio - South Point Pest Control Pros</title>
-        <meta name="description" content="pest control south point ohio - Professional pest control south point ohio. Licensed pest specialists deploy proven elimination treatments, perimeter barriers, and full home protection across South Point, OH. Call (323) 880-1224 for 24/7 same-day service." />
-        <meta name="keywords" content="pest control south point ohio, south point ohio pest control, pest exterminator south point oh, Lawrence county pest control" />
-        <link rel="canonical" href="https://pestcontrolsouthpointohio.com/" />
+        <title>rodent control corvallis oregon - Corvallis Rodent Control Pros</title>
+        <meta name="description" content="rodent control corvallis oregon - Professional rodent control corvallis oregon. Licensed rat and mouse exterminators deploy proven elimination treatments, exclusion barriers, and full home protection across Corvallis, OR. Call (323) 880-1224 for 24/7 same-day service." />
+        <meta name="keywords" content="rodent control corvallis oregon, corvallis rodent control, mouse exterminator corvallis, rat control oregon" />
+        <link rel="canonical" href="https://rodentcontrolcorvallisoregon.com/" />
 
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
-            "name": "South Point Pest Control Pros",
+            "name": "Corvallis Rodent Control Pros",
             "image": "/1.jpeg",
-            "@id": "https://pestcontrolsouthpointohio.com/",
-            "url": "https://pestcontrolsouthpointohio.com/",
+            "@id": "https://rodentcontrolcorvallisoregon.com/",
+            "url": "https://rodentcontrolcorvallisoregon.com/",
             "telephone": "+13238801224",
             "address": {
               "@type": "PostalAddress",
-              "streetAddress": "301 Solida Rd",
-              "addressLocality": "South Point",
-              "addressRegion": "OH",
-              "postalCode": "45680",
+              "streetAddress": "300 NW 2nd St",
+              "addressLocality": "Corvallis",
+              "addressRegion": "OR",
+              "postalCode": "97330",
               "addressCountry": "US"
             },
             "geo": {
               "@type": "GeoCoordinates",
-              "latitude": "38.4268",
-              "longitude": "-82.5766"
+              "latitude": "44.5646",
+              "longitude": "-123.2620"
             },
             "openingHoursSpecification": {
               "@type": "OpeningHoursSpecification",
@@ -54,31 +54,31 @@ const Index = () => {
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Service",
-            "serviceType": "Pest Control",
+            "serviceType": "Rodent Control",
             "provider": {
               "@type": "LocalBusiness",
-              "name": "South Point Pest Control Pros"
+              "name": "Corvallis Rodent Control Pros"
             },
             "areaServed": {
               "@type": "City",
-              "name": "South Point, OH"
+              "name": "Corvallis, OR"
             },
             "hasOfferCatalog": {
               "@type": "OfferCatalog",
-              "name": "Pest Control South Point Ohio Services",
+              "name": "Rodent Control Corvallis Oregon Services",
               "itemListElement": [
-                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Pest Inspection & Identification" } },
-                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Perimeter Barrier Treatment" } },
-                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Indoor Pest Elimination" } }
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Rodent Inspection & Entry Point Identification" } },
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Mice & Rat Exclusion Barrier" } },
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Emergency Rodent Elimination" } }
               ]
             }
           })}
         </script>
 
-        <meta property="og:title" content="pest control south point ohio - South Point Pest Control Pros" />
-        <meta property="og:description" content="pest control south point ohio - Licensed South Point OH pest specialists. Same-day pest elimination, perimeter barrier treatments, and full home protection across Lawrence County, Ohio." />
+        <meta property="og:title" content="rodent control corvallis oregon - Corvallis Rodent Control Pros" />
+        <meta property="og:description" content="rodent control corvallis oregon - Licensed Corvallis OR rodent specialists. Same-day mice and rat elimination, exclusion barriers, and full home protection across Benton County, Oregon." />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://pestcontrolsouthpointohio.com/" />
+        <meta property="og:url" content="https://rodentcontrolcorvallisoregon.com/" />
         <meta property="og:image" content="/1.jpeg" />
       </Helmet>
 
@@ -87,19 +87,19 @@ const Index = () => {
         <Hero
           title={
             <>
-              pest control <br />
-              <span className="text-white drop-shadow-sm uppercase">south point ohio</span>
+              rodent control <br />
+              <span className="text-white drop-shadow-sm uppercase">corvallis oregon</span>
             </>
           }
-          subtitle="South Point's most trusted pest control specialists. We deploy targeted interior treatments, perimeter barrier applications, and full property exclusion to protect your Lawrence County home from pests — fast and guaranteed."
+          subtitle="Corvallis's most trusted rodent control specialists. We deploy targeted interior trapping, exterior exclusion applications, and full property decontamination to protect your Benton County home from rats and mice — fast and guaranteed."
           image="/1.jpeg"
           overlayImage="/2.jpeg"
-          badge="SOUTH POINT OHIO PEST CONTROL ELITE"
+          badge="CORVALLIS OREGON RODENT CONTROL ELITE"
           phone="3238801224"
         />
         <Services />
         <WhyUs />
-        <SouthPointPestControlInfo />
+        <CorvallisRodentControlInfo />
         <Contact />
         <FAQ />
         <RandomLinks />

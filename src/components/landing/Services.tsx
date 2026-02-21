@@ -6,10 +6,10 @@ const Services = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16 max-w-3xl mx-auto">
           <h2 className="text-3xl md:text-5xl font-heading font-bold text-slate-900 mb-6 uppercase tracking-tight">
-            Expert <span className="text-indigo-600">pest control south point ohio</span>
+            Expert <span className="text-indigo-600">rodent control corvallis oregon</span>
           </h2>
           <p className="text-xl text-slate-600 font-medium italic">
-            South Point homeowners and businesses trust us for precision pest elimination, inside-out perimeter defense, and long-lasting protection. We target every pest harborage zone found in Lawrence County properties.
+            Corvallis homeowners and local businesses trust us for precision rat and mouse elimination, total structure exclusion, and full property decontamination. We target every rodent entry point found in Benton County properties.
           </p>
         </div>
 
@@ -17,23 +17,23 @@ const Services = () => {
           {[
             {
               icon: Search,
-              title: "Pest Inspection",
-              description: "Comprehensive inspection of your South Point property — identifying ant trails, rodent entry points, cockroach harborage zones, spider nests, and moisture-driven pest conditions unique to Lawrence County homes.",
+              title: "Rodent Inspection",
+              description: "Comprehensive inspection of your Corvallis property — identifying rat runways, mouse entry holes, nesting sites in insulation, and structural vulnerabilities unique to Willamette Valley homes.",
             },
             {
               icon: ShieldCheck,
-              title: "Perimeter Barrier Treatment",
-              description: "Professional-grade residual barrier treatments applied to your home's foundation, door frames, window sills, and utility entries — creating an invisible shield pests cannot cross.",
+              title: "Structure Exclusion",
+              description: "Professional-grade exclusion work including steel mesh barriers, industrial sealant, and hardware cloth applied to foundation vents, roof lines, and utility penetrations rodents use to enter.",
             },
             {
               icon: Bug,
-              title: "Indoor Pest Elimination",
-              description: "Targeted crack-and-crevice treatments to flush and eliminate roaches, ants, spiders, and other invaders already inside your South Point, OH home or business.",
+              title: "Targeted Elimination",
+              description: "Strategic placement of high-efficiency traps and localized baiting systems to rapidly eliminate rats and mice already established inside your Corvallis, OR home or business.",
             },
             {
               icon: Home,
-              title: "Rodent & Wildlife Control",
-              description: "South Point's rural-meets-suburban landscape creates rodent pressure year-round. We identify and seal entry points, set strategic traps, and eliminate rodent colonies across your property.",
+              title: "Attic & Crawl Decontamination",
+              description: "Rodents leave dangerous pathogens in insulation. We provide full cleanup, sanitization, and insulation replacement to restore a healthy environment to your Benton County property.",
             }
           ].map((service, index) => (
             <div key={index} className="group p-8 rounded-3xl bg-slate-50 border border-slate-100 hover:bg-white hover:shadow-2xl hover:shadow-indigo-500/10 hover:-translate-y-1 transition-all duration-300">

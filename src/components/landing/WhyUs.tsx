@@ -9,21 +9,21 @@ const WhyUs = () => {
           <div>
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-indigo-500/10 border border-indigo-500/20 text-indigo-600 mb-6 uppercase tracking-widest text-xs font-bold">
               <ShieldCheck className="w-4 h-4" />
-              <span>Lawrence County Pest Control Excellence</span>
+              <span>Benton County Rodent Control Excellence</span>
             </div>
             <h2 className="text-4xl md:text-5xl font-heading font-bold text-slate-900 mb-6 uppercase tracking-tight">
-              Why South Point Trusts <span className="text-indigo-600">Our Pest Pros</span>
+              Why Corvallis Trusts <span className="text-indigo-600">Our Rodent Pros</span>
             </h2>
             <p className="text-xl text-slate-600 mb-10 leading-relaxed font-bold italic">
-              When pests invade your South Point home, our licensed pest control south point ohio team delivers the definitive solution for Lawrence County properties — fast and guaranteed.
+              When rats or mice invade your Corvallis home, our licensed rodent control corvallis oregon team delivers the permanent solution for Benton County properties.
             </p>
 
             <div className="grid sm:grid-cols-2 gap-8">
               {[
-                { icon: Activity, title: "Same-Day Response", description: "We dispatch same-day for active pest invasions in South Point and surrounding Lawrence County communities — stopping infestations before they spread." },
-                { icon: Locate, title: "South Point Local", description: "Stationed locally in South Point, OH for rapid response anywhere across Lawrence County — from Chesapeake to Ironton and Coal Grove." },
-                { icon: ClipboardCheck, title: "Licensed & Certified", description: "Our technicians are Ohio state-licensed pest control professionals following IPM (Integrated Pest Management) best practices." },
-                { icon: Sparkles, title: "Eco-Smart Treatments", description: "We use family-safe, pet-friendly treatment options with targeted application methods — minimal chemical exposure, maximum effectiveness for your OH home." }
+                { icon: Activity, title: "Same-Day Response", description: "We dispatch same-day for active rodent invasions in Corvallis and surrounding Benton County communities — stopping nesting before it spreads." },
+                { icon: Locate, title: "Benton County Local", description: "Stationed locally in Corvallis, OR for rapid response anywhere across the Willamette Valley — from Philomath to Albany and Lebanon." },
+                { icon: ClipboardCheck, title: "Licensed & Certified", description: "Our technicians are Oregon state-licensed structural pest control professionals following strict rodent exclusion protocols." },
+                { icon: Sparkles, title: "Humane & Targeted", description: "We use high-efficiency mechanical trapping and exclusion-first methods that prioritize family safety and long-term results." }
               ].map((feature, index) => (
                 <div key={index} className="space-y-3">
                   <div className="w-12 h-12 rounded-xl bg-slate-50 flex items-center justify-center text-indigo-600 border border-slate-100 shadow-sm">
@@ -40,19 +40,19 @@ const WhyUs = () => {
             <div className="aspect-square rounded-[2rem] overflow-hidden border-4 border-indigo-500/20 shadow-2xl relative group">
               <img
                 src="/2.jpeg"
-                alt="South Point Ohio Pest Control Equipment"
+                alt="Rodent Exclusion Equipment Corvallis"
                 className="w-full h-full object-cover transition-all duration-700 group-hover:scale-110"
               />
             </div>
             <div className="aspect-square rounded-[2rem] overflow-hidden border-4 border-indigo-500/20 shadow-2xl relative group mt-8 md:mt-16">
               <img
                 src="/3.jpeg"
-                alt="Professional Pest Treatment South Point Ohio"
+                alt="Professional Mouse Control Corvallis Oregon"
                 className="w-full h-full object-cover transition-all duration-700 group-hover:scale-110"
               />
               <div className="absolute bottom-6 left-6 right-6 bg-slate-900/90 backdrop-blur-xl p-6 rounded-2xl border border-white/10">
-                <p className="text-indigo-400 font-bold uppercase tracking-widest text-[10px] mb-2">Pests Active?</p>
-                <h4 className="text-xl font-bold text-white mb-4 uppercase tracking-tight">Call South Point's Best</h4>
+                <p className="text-indigo-400 font-bold uppercase tracking-widest text-[10px] mb-2">Rodents Active?</p>
+                <h4 className="text-xl font-bold text-white mb-4 uppercase tracking-tight">Call Corvallis's Best</h4>
                 <Button className="bg-indigo-600 hover:bg-indigo-700 text-white font-bold h-10 px-6 rounded-xl uppercase tracking-widest text-[10px] w-full" asChild>
                   <a href="tel:3238801224">Call Now</a>
                 </Button>
