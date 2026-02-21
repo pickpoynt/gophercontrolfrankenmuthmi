@@ -1,4 +1,4 @@
-import { ArrowRight, Search, ShieldCheck, Wind, Bug, Droplets } from "lucide-react";
+import { ArrowRight, Search, ShieldCheck, Bug, Droplets, Home } from "lucide-react";
 
 const Services = () => {
   return (
@@ -6,10 +6,10 @@ const Services = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16 max-w-3xl mx-auto">
           <h2 className="text-3xl md:text-5xl font-heading font-bold text-slate-900 mb-6 uppercase tracking-tight">
-            Expert <span className="text-indigo-600">centipede repellent hawaii</span>
+            Expert <span className="text-indigo-600">pest control south point ohio</span>
           </h2>
           <p className="text-xl text-slate-600 font-medium italic">
-            Hawaii homeowners trust us for precision centipede repellent application, inside-out perimeter defense, and long-lasting protection. We target centipede harborage zones others miss — including the highly venomous Hawaiian giant centipede.
+            South Point homeowners and businesses trust us for precision pest elimination, inside-out perimeter defense, and long-lasting protection. We target every pest harborage zone found in Lawrence County properties.
           </p>
         </div>
 
@@ -17,23 +17,23 @@ const Services = () => {
           {[
             {
               icon: Search,
-              title: "Centipede Inspection",
-              description: "Comprehensive inspection of all centipede harborage zones — rock walls, dense vegetation, garden beds, foundation gaps, and dark damp areas around your Hawaii property.",
+              title: "Pest Inspection",
+              description: "Comprehensive inspection of your South Point property — identifying ant trails, rodent entry points, cockroach harborage zones, spider nests, and moisture-driven pest conditions unique to Lawrence County homes.",
             },
             {
               icon: ShieldCheck,
-              title: "Perimeter Repellent Barrier",
-              description: "Professional-grade residual repellent barrier treatments applied around your home's full foundation, entry points, and entry cracks — creating an invisible shield centipedes cannot cross.",
+              title: "Perimeter Barrier Treatment",
+              description: "Professional-grade residual barrier treatments applied to your home's foundation, door frames, window sills, and utility entries — creating an invisible shield pests cannot cross.",
             },
             {
               icon: Bug,
-              title: "Indoor Centipede Elimination",
-              description: "Targeted crack-and-crevice treatments to flush and eliminate centipedes that have already invaded bathrooms, bedrooms, and living areas of your Hawaii home.",
+              title: "Indoor Pest Elimination",
+              description: "Targeted crack-and-crevice treatments to flush and eliminate roaches, ants, spiders, and other invaders already inside your South Point, OH home or business.",
             },
             {
-              icon: Droplets,
-              title: "Moisture Zone Control",
-              description: "Centipedes thrive in humid Hawaii conditions. We identify and treat high-moisture zones around your property to remove the root cause of recurring centipede infestations.",
+              icon: Home,
+              title: "Rodent & Wildlife Control",
+              description: "South Point's rural-meets-suburban landscape creates rodent pressure year-round. We identify and seal entry points, set strategic traps, and eliminate rodent colonies across your property.",
             }
           ].map((service, index) => (
             <div key={index} className="group p-8 rounded-3xl bg-slate-50 border border-slate-100 hover:bg-white hover:shadow-2xl hover:shadow-indigo-500/10 hover:-translate-y-1 transition-all duration-300">

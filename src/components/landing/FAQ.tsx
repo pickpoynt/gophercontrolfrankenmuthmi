@@ -1,23 +1,23 @@
 const faqs = [
   {
-    question: "Are Hawaiian centipedes dangerous to my family?",
-    answer: "Yes — Hawaii is home to the Scolopendra subspinipes, one of the world's most venomous centipedes. Their bites cause intense pain, swelling, and can trigger allergic reactions. Small children and pets are most at risk. Our centipede repellent hawaii team eliminates them before anyone gets stung."
+    question: "What pests are most common in South Point, Ohio?",
+    answer: "South Point's location along the Ohio River in Lawrence County creates the perfect environment for a wide range of pests. The most common include ants (especially carpenter ants), cockroaches, spiders, stink bugs, mice, rats, and seasonal wasps. Our pest control south point ohio team knows exactly which species dominate in each season and deploys targeted treatments accordingly."
   },
   {
-    question: "How quickly can you respond to a centipede problem in Hawaii?",
-    answer: "We offer same-day service for active centipede issues across Hawaii, including Oahu, Maui, the Big Island, and Kauai. Call (323) 880-1224 and we'll dispatch immediately to protect your household."
+    question: "How quickly can you respond to a pest problem in South Point, OH?",
+    answer: "We offer same-day service for active pest infestations across South Point and all of Lawrence County, including Ironton, Chesapeake, Coal Grove, and Proctorville. Call (323) 880-1224 and we'll dispatch immediately — no waiting for a scheduled appointment."
   },
   {
-    question: "Why do I keep finding centipedes inside my Hawaii home?",
-    answer: "Hawaii's warm, humid tropical climate is paradise for centipedes year-round. Dense vegetation, rock walls, mulched garden beds, and moisture-rich spaces near foundations invite centipedes indoors. Our centipede repellent hawaii specialists identify all entry points and root causes — not just the visible bugs."
+    question: "Why do I keep getting pests inside my South Point home?",
+    answer: "South Point sits at the crossroads of the Ohio River valley, dense woodlands, and older residential neighborhoods — creating year-round pest pressure from moisture-driven insects, woodland rodents, and overwintering bugs. Our pest control south point ohio specialists identify and treat all entry points and root causes, not just the visible pests."
   },
   {
-    question: "What centipede repellent treatments do you use and are they safe?",
-    answer: "We use Hawaii-approved, EPA-registered pest control products with targeted application methods that are safe for families, pets, and Hawaii's unique ecosystem. Our technicians use eco-smart IPM techniques and will brief you on any precautions before treatment begins."
+    question: "What pest treatments do you use and are they safe for pets and children?",
+    answer: "We use Ohio EPA-registered pest control products with targeted crack-and-crevice and perimeter application methods. We offer pet-safe and child-friendly formulations and follow strict Integrated Pest Management (IPM) protocols. Our technicians always brief you on any precautions before treatment begins."
   },
   {
-    question: "Do you offer a guarantee on your centipede repellent services?",
-    answer: "Yes. We stand behind our work with a satisfaction guarantee. If centipedes return within the treatment period, we re-treat at no additional charge. Hawaii homeowners count on us for long-lasting, island-proven results."
+    question: "Do you offer a guarantee on your pest control services?",
+    answer: "Yes. We stand behind every treatment with a satisfaction guarantee. If pests return within the treatment period, we re-treat at no additional charge. South Point and Lawrence County homeowners count on us for long-lasting, proven results."
   }
 ];
 
@@ -33,12 +33,12 @@ const FAQ = () => {
     <section id="faq" className="py-24 bg-slate-50">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16 max-w-3xl mx-auto">
-          <span className="text-indigo-600 font-bold tracking-widest uppercase text-sm">Centipede Expert Answers</span>
+          <span className="text-indigo-600 font-bold tracking-widest uppercase text-sm">Pest Expert Answers</span>
           <h2 className="text-3xl md:text-5xl font-heading font-bold text-slate-900 mt-4 mb-6 uppercase tracking-tight">
-            Centipede Repellent Hawaii <span className="text-indigo-600">FAQ</span>
+            Pest Control South Point Ohio <span className="text-indigo-600">FAQ</span>
           </h2>
           <p className="text-xl text-slate-600 font-medium italic">
-            Key answers for Hawaii property owners dealing with dangerous centipede problems.
+            Key answers for South Point and Lawrence County property owners dealing with pest problems.
           </p>
         </div>
 

@@ -2,7 +2,7 @@ import Header from "@/components/landing/Header";
 import Hero from "@/components/landing/Hero";
 import Services from "@/components/landing/Services";
 import WhyUs from "@/components/landing/WhyUs";
-import CentipedeRepellentHawaiiInfo from "@/components/landing/CentipedeRepellentHawaiiInfo";
+import SouthPointPestControlInfo from "@/components/landing/SouthPointPestControlInfo";
 import Contact from "@/components/landing/Contact";
 import FAQ from "@/components/landing/FAQ";
 import Footer from "@/components/landing/Footer";
@@ -14,32 +14,32 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-slate-50">
       <Helmet>
-        <title>centipede repellent hawaii - Hawaii Centipede Repellent Pros</title>
-        <meta name="description" content="centipede repellent hawaii - Professional centipede repellent hawaii. Licensed pest specialists deploy proven centipede repellent treatments, perimeter barriers, and full home protection across Hawaii. Call (323) 880-1224 for 24/7 same-day service." />
-        <meta name="keywords" content="centipede repellent hawaii, hawaii centipede control, centipede treatment hawaii, pest control hawaii centipede" />
-        <link rel="canonical" href="https://centipederepellenthawaii.com/" />
+        <title>pest control south point ohio - South Point Pest Control Pros</title>
+        <meta name="description" content="pest control south point ohio - Professional pest control south point ohio. Licensed pest specialists deploy proven elimination treatments, perimeter barriers, and full home protection across South Point, OH. Call (323) 880-1224 for 24/7 same-day service." />
+        <meta name="keywords" content="pest control south point ohio, south point ohio pest control, pest exterminator south point oh, Lawrence county pest control" />
+        <link rel="canonical" href="https://pestcontrolsouthpointohio.com/" />
 
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
-            "name": "Hawaii Centipede Repellent Pros",
+            "name": "South Point Pest Control Pros",
             "image": "/1.jpeg",
-            "@id": "https://centipederepellenthawaii.com/",
-            "url": "https://centipederepellenthawaii.com/",
+            "@id": "https://pestcontrolsouthpointohio.com/",
+            "url": "https://pestcontrolsouthpointohio.com/",
             "telephone": "+13238801224",
             "address": {
               "@type": "PostalAddress",
-              "streetAddress": "1000 Bishop St",
-              "addressLocality": "Honolulu",
-              "addressRegion": "HI",
-              "postalCode": "96813",
+              "streetAddress": "301 Solida Rd",
+              "addressLocality": "South Point",
+              "addressRegion": "OH",
+              "postalCode": "45680",
               "addressCountry": "US"
             },
             "geo": {
               "@type": "GeoCoordinates",
-              "latitude": "21.3069",
-              "longitude": "-157.8583"
+              "latitude": "38.4268",
+              "longitude": "-82.5766"
             },
             "openingHoursSpecification": {
               "@type": "OpeningHoursSpecification",
@@ -54,31 +54,31 @@ const Index = () => {
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Service",
-            "serviceType": "Centipede Repellent Treatment",
+            "serviceType": "Pest Control",
             "provider": {
               "@type": "LocalBusiness",
-              "name": "Hawaii Centipede Repellent Pros"
+              "name": "South Point Pest Control Pros"
             },
             "areaServed": {
-              "@type": "State",
-              "name": "Hawaii"
+              "@type": "City",
+              "name": "South Point, OH"
             },
             "hasOfferCatalog": {
               "@type": "OfferCatalog",
-              "name": "Centipede Repellent Hawaii Services",
+              "name": "Pest Control South Point Ohio Services",
               "itemListElement": [
-                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Centipede Inspection & Identification" } },
-                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Perimeter Repellent Barrier Treatment" } },
-                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Indoor Centipede Elimination" } }
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Pest Inspection & Identification" } },
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Perimeter Barrier Treatment" } },
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Indoor Pest Elimination" } }
               ]
             }
           })}
         </script>
 
-        <meta property="og:title" content="centipede repellent hawaii - Hawaii Centipede Repellent Pros" />
-        <meta property="og:description" content="centipede repellent hawaii - Licensed Hawaii pest specialists. Same-day centipede repellent treatments, perimeter barriers, and full home protection across Hawaii." />
+        <meta property="og:title" content="pest control south point ohio - South Point Pest Control Pros" />
+        <meta property="og:description" content="pest control south point ohio - Licensed South Point OH pest specialists. Same-day pest elimination, perimeter barrier treatments, and full home protection across Lawrence County, Ohio." />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://centipederepellenthawaii.com/" />
+        <meta property="og:url" content="https://pestcontrolsouthpointohio.com/" />
         <meta property="og:image" content="/1.jpeg" />
       </Helmet>
 
@@ -87,19 +87,19 @@ const Index = () => {
         <Hero
           title={
             <>
-              centipede repellent <br />
-              <span className="text-white drop-shadow-sm uppercase">hawaii</span>
+              pest control <br />
+              <span className="text-white drop-shadow-sm uppercase">south point ohio</span>
             </>
           }
-          subtitle="Hawaii's most trusted centipede repellent specialists. We deploy targeted perimeter barrier treatments, deep-crack exclusion applications, and moisture-zone management to protect your Hawaii home from dangerous centipede invasions — fast."
+          subtitle="South Point's most trusted pest control specialists. We deploy targeted interior treatments, perimeter barrier applications, and full property exclusion to protect your Lawrence County home from pests — fast and guaranteed."
           image="/1.jpeg"
           overlayImage="/2.jpeg"
-          badge="HAWAII CENTIPEDE CONTROL ELITE"
+          badge="SOUTH POINT OHIO PEST CONTROL ELITE"
           phone="3238801224"
         />
         <Services />
         <WhyUs />
-        <CentipedeRepellentHawaiiInfo />
+        <SouthPointPestControlInfo />
         <Contact />
         <FAQ />
         <RandomLinks />
