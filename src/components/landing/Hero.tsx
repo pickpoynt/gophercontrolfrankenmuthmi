@@ -12,16 +12,16 @@ interface HeroProps {
 }
 
 const Hero = ({
-  title = "La Grange Brown Recluse Pros",
-  subtitle = "Expert brown recluse spider elimination for La Grange's historic and modern homes.",
+  title = "Chesapeake Repiping Pros",
+  subtitle = "Expert whole-home repiping for Chesapeake's historic and modern residences.",
   image = "/1.jpeg",
-  overlayImage = "/2.jpeg",
-  phone = "3238801224",
-  badge = "LA GRANGE SPIDER CONTROL PROS",
+  overlayImage = "/3.jpeg",
+  phone = "8777921410",
+  badge = "CHESAPEAKE REPIPING PROS",
   features = [
-    { icon: Locate, text: "Precision Inspection" },
-    { icon: ShieldCheck, text: "Oldham County Ready" },
-    { icon: Activity, text: "Venomous Elimination" }
+    { icon: Locate, text: "Virginia Master Plumber" },
+    { icon: ShieldCheck, text: "Full Home Repipe" },
+    { icon: Activity, text: "Leak Protection" }
   ]
 }: HeroProps) => {
   const formattedPhone = phone.replace(/(\d{3})(\d{3})(\d{4})/, "($1) $2-$3");
