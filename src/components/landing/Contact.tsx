@@ -83,7 +83,7 @@ const Contact = () => {
             </div>
             <div className="space-y-4">
               <Button className="w-full bg-indigo-600 hover:bg-indigo-700 text-white h-16 rounded-xl text-lg font-bold shadow-lg shadow-indigo-900/20 uppercase tracking-widest transition-all">
-                Request Free Inspection
+                Call Now
               </Button>
               <div className="pt-4 border-t border-slate-100">
                 <p className="text-slate-500 text-xs text-center mb-2 font-bold uppercase tracking-widest">Leasing Opportunity</p>

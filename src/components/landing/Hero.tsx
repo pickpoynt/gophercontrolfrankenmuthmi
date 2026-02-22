@@ -64,8 +64,8 @@ const Hero = ({
               </a>
             </Button>
             <Button size="lg" variant="outline" className="bg-white/5 backdrop-blur-md border-white/20 text-white hover:bg-white/10 transition-all h-14 px-8 text-lg uppercase tracking-widest font-bold shadow-2xl" asChild>
-              <a href="#contact" className="flex items-center gap-2">
-                Request Service
+              <a href={`tel:${phone}`} className="flex items-center gap-2">
+                Call Now
                 <ArrowRight className="w-5 h-5 text-indigo-400" />
               </a>
             </Button>

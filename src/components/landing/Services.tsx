@@ -37,14 +37,14 @@ const Services = () => {
             }
           ].map((service, index) => (
             <div key={index} className="group p-8 rounded-3xl bg-slate-50 border border-slate-100 hover:bg-white hover:shadow-2xl hover:shadow-indigo-500/10 hover:-translate-y-1 transition-all duration-300">
-              <a href="#contact">
+              <a href="tel:3238801224">
                 <div className="w-16 h-16 rounded-2xl bg-white shadow-lg flex items-center justify-center mb-6 group-hover:bg-indigo-600 transition-colors">
                   <service.icon className="w-8 h-8 text-indigo-600 group-hover:text-white transition-colors" />
                 </div>
                 <h3 className="text-xl font-bold text-slate-900 mb-3 group-hover:text-indigo-700 uppercase tracking-tight">{service.title}</h3>
                 <p className="text-slate-600 leading-relaxed font-medium mb-6">{service.description}</p>
                 <div className="flex items-center gap-2 text-indigo-600 font-bold text-sm uppercase tracking-wider group-hover:gap-3 transition-all">
-                  Get Inspection <ArrowRight className="w-4 h-4" />
+                  Call Now <ArrowRight className="w-4 h-4" />
                 </div>
               </a>
             </div>

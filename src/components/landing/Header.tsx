@@ -45,7 +45,7 @@ const Header = () => {
               <a href="tel:3238801224" className="text-xl font-bold hover:text-indigo-500 transition-colors tracking-tighter">(323) 880-1224</a>
             </div>
             <Button className={`${isScrolled ? "bg-indigo-600 hover:bg-indigo-700" : "bg-white text-slate-900 hover:bg-indigo-50"} h-12 px-8 rounded-xl font-bold shadow-xl transition-all hover:-translate-y-0.5`} asChild>
-              <a href="#contact">Free Inspection</a>
+              <a href="tel:3238801224">Call Now</a>
             </Button>
           </div>
 
