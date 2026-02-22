@@ -89,7 +89,7 @@ const Contact = () => {
                 <p className="text-slate-500 text-xs text-center mb-2 font-bold uppercase tracking-widest">Leasing Opportunity</p>
                 <p className="text-slate-600 text-[10px] text-center italic leading-tight">
                   Are you a local Nebraska wildlife specialist? Replace this phone number with yours for only $19/month.
-                  <a href="mailto:leasemynumber@gmail.com" className="text-indigo-600 font-bold ml-1">Email leasemynumber@gmail.com</a>
+                  <a href="/lease" className="text-indigo-600 font-bold ml-1 underline underline-offset-4">Learn More & Lease</a>
                 </p>
               </div>
             </div>

@@ -102,6 +102,7 @@ const Footer = () => {
             © {new Date().getFullYear()} McCook Coyote Control Pros. All rights reserved. Professional Wildlife Management & Predator Control.
           </p>
           <div className="flex gap-8">
+            <a href="/lease" className="text-slate-500 hover:text-indigo-400 text-[10px] font-bold uppercase tracking-widest transition-colors">Lease</a>
             <a href="#" className="text-slate-500 hover:text-indigo-400 text-[10px] font-bold uppercase tracking-widest transition-colors">Privacy Policy</a>
             <a href="#" className="text-slate-500 hover:text-indigo-400 text-[10px] font-bold uppercase tracking-widest transition-colors">Terms of Service</a>
           </div>
